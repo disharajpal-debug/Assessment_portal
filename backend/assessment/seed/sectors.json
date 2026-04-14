@@ -1,0 +1,9 @@
+[
+  { "code": "textile", "name": "Textile" },
+  { "code": "pharmaceutical", "name": "Pharmaceutical" },
+  { "code": "chemicals", "name": "Chemicals" },
+  { "code": "wire_cable", "name": "Wire & Cable" },
+  { "code": "engineering_goods", "name": "Engineering Goods" },
+  { "code": "plastic_packaging", "name": "Plastic & Packaging" }
+]
+

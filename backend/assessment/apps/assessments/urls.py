@@ -1,0 +1,46 @@
+from django.urls import path
+from .views import (
+    AssessmentListCreateView,
+    AssessmentDetailView,
+    AssessmentSubmitView,
+    AssessmentUpdateView,
+    AssessmentReviewView,
+    DashboardStatsView,
+    ClientListView,
+    AssessorAnalyticsView,
+    AssessorDashboardView,
+    SuperUserSummaryView,
+    AssessorAssignmentListCreateView,
+    AssessorAssignmentDetailView,
+    AdminSummaryView,
+    AdminClientListCreateView,
+    AdminClientDetailView,
+    AdminAssessorListCreateView,
+    AdminAssessorDetailView,
+    AdminAssignmentListCreateView,
+    AdminAssignmentDetailView,
+)
+
+urlpatterns = [
+    path('', AssessmentListCreateView.as_view(), name='assessment-list-create'),
+    path('<int:pk>/', AssessmentDetailView.as_view(), name='assessment-detail'),
+    path('<int:pk>/update/', AssessmentUpdateView.as_view(), name='assessment-update'),
+    path('<int:pk>/review/', AssessmentReviewView.as_view(), name='assessment-review'),
+    path('<int:pk>/submit/', AssessmentSubmitView.as_view(), name='assessment-submit'),
+    path('stats/', DashboardStatsView.as_view(), name='assessment-stats'),
+    path('assessor/analytics/', AssessorAnalyticsView.as_view(), name='assessor-analytics'),
+    path('assessor/dashboard/', AssessorDashboardView.as_view(), name='assessor-dashboard'),
+    path('clients/', ClientListView.as_view(), name='client-list'),
+    path('superuser/summary/', SuperUserSummaryView.as_view(), name='superuser-summary'),
+    path('assignments/', AssessorAssignmentListCreateView.as_view(), name='assignments-list-create'),
+    path('assignments/<int:pk>/', AssessorAssignmentDetailView.as_view(), name='assignments-detail'),
+
+    # Admin ops dashboard
+    path('admin/summary/', AdminSummaryView.as_view(), name='admin-summary'),
+    path('admin/clients/', AdminClientListCreateView.as_view(), name='admin-clients-list-create'),
+    path('admin/clients/<int:pk>/', AdminClientDetailView.as_view(), name='admin-clients-detail'),
+    path('admin/assessors/', AdminAssessorListCreateView.as_view(), name='admin-assessors-list-create'),
+    path('admin/assessors/<int:pk>/', AdminAssessorDetailView.as_view(), name='admin-assessors-detail'),
+    path('admin/assignments/', AdminAssignmentListCreateView.as_view(), name='admin-assignments-list-create'),
+    path('admin/assignments/<int:pk>/', AdminAssignmentDetailView.as_view(), name='admin-assignments-detail'),
+]

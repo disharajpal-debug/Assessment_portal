@@ -1,0 +1,6579 @@
+{
+  "generatedAt": "2026-04-08T09:13:39.968Z",
+  "catalogs": {
+    "basic": [
+      {
+        "id": "B01",
+        "type": "basic",
+        "text": "Your Primary Industry",
+        "options": [
+          {
+            "text": "Textile"
+          },
+          {
+            "text": "Pharmaceutical"
+          },
+          {
+            "text": "Chemicals"
+          },
+          {
+            "text": "Wire & Cable"
+          },
+          {
+            "text": "Engineering Goods"
+          },
+          {
+            "text": "Plastic & Packaging"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B02",
+        "type": "basic",
+        "text": "Company Turnover (INR)",
+        "options": [
+          {
+            "text": "< 100 Cr"
+          },
+          {
+            "text": "< 500 Cr"
+          },
+          {
+            "text": "< 1000 Cr"
+          },
+          {
+            "text": "< 5000 Cr"
+          },
+          {
+            "text": "> 5000 Cr"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B03",
+        "type": "basic",
+        "text": "Number of Employees",
+        "options": [
+          {
+            "text": "< 50"
+          },
+          {
+            "text": "< 100"
+          },
+          {
+            "text": "< 500"
+          },
+          {
+            "text": "< 1000"
+          },
+          {
+            "text": "> 1000"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B04",
+        "type": "basic",
+        "text": "What is your primary business objective in next 2-3 years?",
+        "options": [
+          {
+            "text": "Reduce Cost of Poor Quality"
+          },
+          {
+            "text": "Reduce Inventory Levels"
+          },
+          {
+            "text": "Reduce Product Time-to-Market"
+          },
+          {
+            "text": "Improve Market Share/Revenue"
+          },
+          {
+            "text": "Improve Customer Satisfaction"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B05",
+        "type": "basic",
+        "text": "Number of Factory location",
+        "options": [
+          {
+            "text": "1"
+          },
+          {
+            "text": "2-5"
+          },
+          {
+            "text": "6-10"
+          },
+          {
+            "text": "10+"
+          },
+          {
+            "text": "Global Presence"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B06",
+        "type": "basic",
+        "text": "What are your customer channels?",
+        "options": [
+          {
+            "text": "B2B"
+          },
+          {
+            "text": "B2B & B2C"
+          },
+          {
+            "text": "B2C"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B07",
+        "type": "basic",
+        "text": "Which Markets do you operate in currently?",
+        "options": [
+          {
+            "text": "India"
+          },
+          {
+            "text": "India & Export"
+          },
+          {
+            "text": "Export"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B08",
+        "type": "basic",
+        "text": "To which production type do you assign your company?",
+        "options": [
+          {
+            "text": "One time production"
+          },
+          {
+            "text": "Individual and small series production"
+          },
+          {
+            "text": "Series production"
+          },
+          {
+            "text": "Mass production"
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ],
+        "excludeFromScoring": true
+      },
+      {
+        "id": "B09",
+        "type": "basic",
+        "text": "How far are you with your IT security solutions?",
+        "isMatrix": true,
+        "matrixHeader": "Security Area",
+        "children": [
+          {
+            "id": "B10",
+            "type": "basic",
+            "text": "Security of internal data storage",
+            "options": [
+              {
+                "text": "Solution Implemented"
+              },
+              {
+                "text": "Solution in Work"
+              },
+              {
+                "text": "Solution Planned"
+              },
+              {
+                "text": "No Plans"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B11",
+            "type": "basic",
+            "text": "Security of cloud data storage",
+            "options": [
+              {
+                "text": "Solution Implemented"
+              },
+              {
+                "text": "Solution in Work"
+              },
+              {
+                "text": "Solution Planned"
+              },
+              {
+                "text": "No Plans"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B12",
+            "type": "basic",
+            "text": "Security of data exchange with external partners/companies",
+            "options": [
+              {
+                "text": "Solution Implemented"
+              },
+              {
+                "text": "Solution in Work"
+              },
+              {
+                "text": "Solution Planned"
+              },
+              {
+                "text": "No Plans"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B13",
+        "type": "basic",
+        "text": "How do you assess the skills and know-how of your employees in relation to Industry 4.0?",
+        "isMatrix": true,
+        "matrixHeader": "Role",
+        "children": [
+          {
+            "id": "B14",
+            "type": "basic",
+            "text": "Managing Directors",
+            "options": [
+              {
+                "text": "Not Available"
+              },
+              {
+                "text": "Sufficient"
+              },
+              {
+                "text": "Average"
+              },
+              {
+                "text": "Good"
+              },
+              {
+                "text": "Very Good"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B15",
+            "type": "basic",
+            "text": "Executives",
+            "options": [
+              {
+                "text": "Not Available"
+              },
+              {
+                "text": "Sufficient"
+              },
+              {
+                "text": "Average"
+              },
+              {
+                "text": "Good"
+              },
+              {
+                "text": "Very Good"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B16",
+            "type": "basic",
+            "text": "Workers",
+            "options": [
+              {
+                "text": "Not Available"
+              },
+              {
+                "text": "Sufficient"
+              },
+              {
+                "text": "Average"
+              },
+              {
+                "text": "Good"
+              },
+              {
+                "text": "Very Good"
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B17",
+        "type": "basic",
+        "text": "Section 3 - Organization Digital Maturity",
+        "children": [
+          {
+            "id": "B18",
+            "type": "basic",
+            "text": "Digital Strategy & Vision",
+            "children": [
+              {
+                "id": "B19",
+                "type": "basic",
+                "text": "What best describes your organization strategy to digital transformation?",
+                "options": [
+                  {
+                    "text": "No articulated digital strategy in the organization",
+                    "score": 1
+                  },
+                  {
+                    "text": "Digital Strategy articulated but is not used by the business operations",
+                    "score": 2
+                  },
+                  {
+                    "text": "Digital Strategy articulated and is relevant and used by the business operations",
+                    "score": 3
+                  },
+                  {
+                    "text": "Digital Strategy is a dynamic and is business led and driven",
+                    "score": 4
+                  },
+                  {
+                    "text": "Digital Strategy is transformative and central to the future success of the organization",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B20",
+            "type": "basic",
+            "text": "Data & Analytics",
+            "children": [
+              {
+                "id": "B21",
+                "type": "basic",
+                "text": "What best describes the data maturity in your organization?",
+                "options": [
+                  {
+                    "text": "Data is kept mostly in employee systems in spreadsheets and logs",
+                    "score": 1
+                  },
+                  {
+                    "text": "Transaction data from a siloed systems is in use in the organization",
+                    "score": 2
+                  },
+                  {
+                    "text": "Structured data from multiple internal systems are integrated and used within organization",
+                    "score": 3
+                  },
+                  {
+                    "text": "Real-time data sources like web data and IoT data is augmented to the existing data sources",
+                    "score": 4
+                  },
+                  {
+                    "text": "Organization procures trusted external data to augment and enrich its own datasets",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              },
+              {
+                "id": "B22",
+                "type": "basic",
+                "text": "What best describes the culture for data-driven decision making within your organization?",
+                "options": [
+                  {
+                    "text": "Decision makers rely on perceptions, historical decisions and non-validated beliefs.",
+                    "score": 1
+                  },
+                  {
+                    "text": "Decision makers recognize benefits of data analytics to support decision making but don’t leverage analytics consistently.",
+                    "score": 2
+                  },
+                  {
+                    "text": "Decision makers adopt data analytics for all decisions, including key investments and resource allocation.",
+                    "score": 3
+                  },
+                  {
+                    "text": "Decision makers leverage analytics across the organization to support business decisions.",
+                    "score": 4
+                  },
+                  {
+                    "text": "Decision makers search for new ways to use advanced analytics to support business decisions.",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B23",
+            "type": "basic",
+            "text": "Organization & Skills",
+            "children": [
+              {
+                "id": "B24",
+                "type": "basic",
+                "text": "Who drives digital transformation agenda in the organization?",
+                "options": [
+                  {
+                    "text": "There is no single ownership for digital transformation within organization. It is ad-hoc",
+                    "score": 1
+                  },
+                  {
+                    "text": "IT team drives the digital transformation agenda",
+                    "score": 2
+                  },
+                  {
+                    "text": "Digital Transformation is owned and driven by respective departments",
+                    "score": 3
+                  },
+                  {
+                    "text": "CEO has an additional responsibility of driving the digital transformation in the organization",
+                    "score": 4
+                  },
+                  {
+                    "text": "CDO, with dedicated P/L,reporting to the board, drives the digital transformation agenda",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              },
+              {
+                "id": "B25",
+                "type": "basic",
+                "text": "How best describes your approach to creating the digital talent pool within the organization?",
+                "options": [
+                  {
+                    "text": "We don't have a strategy in place to build new talent pool in the organization. Few skills attached to the functions",
+                    "score": 1
+                  },
+                  {
+                    "text": "Pockets of skills with organization. Not connected and no skill management",
+                    "score": 2
+                  },
+                  {
+                    "text": "Digital skills recognized as a key business differentitor and some hiring and training programs launched",
+                    "score": 3
+                  },
+                  {
+                    "text": "Company-wide initiative to train and upskill existing resources and deploy them on new projects",
+                    "score": 4
+                  },
+                  {
+                    "text": "Future business strategy is build around digital capabilities. Specific role based training and upskilling program in place across all layers and functions of the company",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "B26",
+            "type": "basic",
+            "text": "Process & Technology",
+            "children": [
+              {
+                "id": "B27",
+                "type": "basic",
+                "text": "How are processes defined within the organization?",
+                "options": [
+                  {
+                    "text": "Processes are manual and ad-hoc. There is little or no process documentation or control",
+                    "score": 1
+                  },
+                  {
+                    "text": "Processes are partly digitized but there is lack of control and adoption resulting in high process variations",
+                    "score": 2
+                  },
+                  {
+                    "text": "Processes are standardized across business units and there are controls to ensure high adoption and low process variations",
+                    "score": 3
+                  },
+                  {
+                    "text": "E2E processes are digitized and standardized with clear process ownership and metrics defined",
+                    "score": 4
+                  },
+                  {
+                    "text": "Organization is continuously looking for ways to improve business processes with a clear focus on evolving customer needs",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              },
+              {
+                "id": "B28",
+                "type": "basic",
+                "text": "What is the organization approach to digital technology acquisition?",
+                "options": [
+                  {
+                    "text": "Organization does not believe digital technology is a business differentiator and does not make investments beyond basic spreadsheets",
+                    "score": 1
+                  },
+                  {
+                    "text": "Organization considers technology as a cost function and makes investment based on core - financial, regulatory or specific customer requirements",
+                    "score": 2
+                  },
+                  {
+                    "text": "Organization makes some technology investments outside of core requirements but those are internally focused and made for improving process efficiencies",
+                    "score": 3
+                  },
+                  {
+                    "text": "There is an understanding that technology is a key business enabler and decisions on technology is both external and internal facing. A customer metric based business case is required for investment decision",
+                    "score": 4
+                  },
+                  {
+                    "text": "Company has adopted a forward looking platform approach to technology. The technology backbone supports rapid development and deployment of products and services",
+                    "score": 5
+                  },
+                  {
+                    "text": "N/A",
+                    "isNA": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B29",
+        "type": "basic",
+        "text": "What is the adoption of the following digital technologies on Shopfloor",
+        "isMatrix": true,
+        "matrixHeader": "Technology",
+        "children": [
+          {
+            "id": "B30",
+            "type": "basic",
+            "text": "Connected Machine - IOT",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B31",
+            "type": "basic",
+            "text": "Condition Based Monitoring",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B32",
+            "type": "basic",
+            "text": "Andon Boards",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B33",
+            "type": "basic",
+            "text": "Role Based Dashboards",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B34",
+            "type": "basic",
+            "text": "SCADA and PLC Systems",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B35",
+            "type": "basic",
+            "text": "Bar-Code/ QR Code/BLE etc. for traceability",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B36",
+            "type": "basic",
+            "text": "Robotics & Co-Bots",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B37",
+            "type": "basic",
+            "text": "AGV's",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B38",
+            "type": "basic",
+            "text": "MES",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B39",
+            "type": "basic",
+            "text": "Utility Management",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B40",
+            "type": "basic",
+            "text": "Spares Management",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B41",
+            "type": "basic",
+            "text": "Tool Life Management",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B42",
+            "type": "basic",
+            "text": "AR/VR",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B43",
+            "type": "basic",
+            "text": "Others (Please mention)",
+            "options": [
+              {
+                "text": "Not Initiated",
+                "score": 1
+              },
+              {
+                "text": "Demo Completed",
+                "score": 2
+              },
+              {
+                "text": "Actively Exploring",
+                "score": 3
+              },
+              {
+                "text": "Pilot Done",
+                "score": 4
+              },
+              {
+                "text": "In Production",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B44",
+        "type": "basic",
+        "text": "What is the maturity of your enterprise systems?",
+        "isMatrix": true,
+        "matrixHeader": "System",
+        "children": [
+          {
+            "id": "B45",
+            "type": "basic",
+            "text": "Enterprise Resource Planning",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B46",
+            "type": "basic",
+            "text": "Customer Relationship Management",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B47",
+            "type": "basic",
+            "text": "Sales Platform",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B48",
+            "type": "basic",
+            "text": "Dealer Management System",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B49",
+            "type": "basic",
+            "text": "CAD/CAM",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B50",
+            "type": "basic",
+            "text": "Product Lifecycle Management",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B51",
+            "type": "basic",
+            "text": "Supplier Relationship Management",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B52",
+            "type": "basic",
+            "text": "Human Resource Management Systems",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B53",
+            "type": "basic",
+            "text": "Warehouse Management System",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B54",
+            "type": "basic",
+            "text": "E-Shop floor management",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B55",
+            "type": "basic",
+            "text": "Data Lake/Data Platform",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B56",
+            "type": "basic",
+            "text": "Enterprise AI /Analytics Platform",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B57",
+            "type": "basic",
+            "text": "Master data management (MDM)",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          },
+          {
+            "id": "B58",
+            "type": "basic",
+            "text": "Others ( Please Mention)",
+            "options": [
+              {
+                "text": "Not in Use",
+                "score": 0
+              },
+              {
+                "text": "Low Maturity",
+                "score": 1
+              },
+              {
+                "text": "Medium Maturity",
+                "score": 3
+              },
+              {
+                "text": "High Maturity",
+                "score": 4
+              },
+              {
+                "text": "Maturity with Benefits",
+                "score": 5
+              },
+              {
+                "text": "N/A",
+                "isNA": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functional": [
+      {
+        "id": "F01",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Inwarding Process",
+        "text": "How is raw material receiving (inwarding) currently documented?",
+        "options": [
+          {
+            "text": "No records; verbal confirmation only",
+            "score": 1
+          },
+          {
+            "text": "Manual gate entry register maintained",
+            "score": 2
+          },
+          {
+            "text": "Excel-based GRN (Goods Receipt Note) created per consignment",
+            "score": 3
+          },
+          {
+            "text": "ERP-based GRN raised automatically on receipt",
+            "score": 4
+          },
+          {
+            "text": "Digital gate-in system with barcode scan, auto-GRN and supplier portal update",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F02",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Verification & Traceability",
+        "text": "How is the identity of incoming raw material verified against the purchase order?",
+        "options": [
+          {
+            "text": "No verification; material accepted as delivered",
+            "score": 1
+          },
+          {
+            "text": "Visual inspection by store keeper against paper PO",
+            "score": 2
+          },
+          {
+            "text": "Checklist-based verification with manual sign-off",
+            "score": 3
+          },
+          {
+            "text": "System-based PO matching with quantity and grade check",
+            "score": 4
+          },
+          {
+            "text": "Automated PO-to-GRN reconciliation with supplier certificate upload",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F03",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Quantity Verification",
+        "text": "How is quantity measurement and weighing of incoming material handled?",
+        "options": [
+          {
+            "text": "No weighing; quantity accepted per supplier's bill",
+            "score": 1
+          },
+          {
+            "text": "Manual weighing with physical scales; entered in register",
+            "score": 2
+          },
+          {
+            "text": "Digital weighbridge with print-out; data entered manually in ERP",
+            "score": 3
+          },
+          {
+            "text": "Weighbridge integrated with ERP for automatic GRN quantity",
+            "score": 4
+          },
+          {
+            "text": "IoT-enabled weighbridge with real-time data feed, auto-alerts for short receipt",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F04",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Inward Quality Check",
+        "text": "How is incoming material quality checked at the time of receipt?",
+        "options": [
+          {
+            "text": "No QC at receipt; quality checked only after processing",
+            "score": 1
+          },
+          {
+            "text": "Visual check by store keeper; rejected if obviously defective",
+            "score": 2
+          },
+          {
+            "text": "Formal sampling/testing done with paper-based QC report",
+            "score": 3
+          },
+          {
+            "text": "Digital QC report linked to GRN; quarantine flag raised for rejects",
+            "score": 4
+          },
+          {
+            "text": "Statistical sampling with digital CAPA trigger; supplier scorecard updated automatically",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F05",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Document Management",
+        "text": "How are supplier test certificates / COA (Certificate of Analysis) managed?",
+        "options": [
+          {
+            "text": "Not collected or not reviewed",
+            "score": 1
+          },
+          {
+            "text": "Collected in physical file but not linked to material lot",
+            "score": 2
+          },
+          {
+            "text": "Scanned and saved in shared folder manually",
+            "score": 3
+          },
+          {
+            "text": "Uploaded in ERP/QMS against each GRN",
+            "score": 4
+          },
+          {
+            "text": "Automated COA extraction with parameter validation against specs",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F06",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Non-Conformance Management",
+        "text": "How is non-conforming or rejected incoming material handled?",
+        "options": [
+          {
+            "text": "Sent back verbally or mixed with accepted stock",
+            "score": 1
+          },
+          {
+            "text": "Physically segregated but no formal record",
+            "score": 2
+          },
+          {
+            "text": "Manual rejection note raised and filed",
+            "score": 3
+          },
+          {
+            "text": "Digital NCMR raised in ERP; return or rework decision tracked",
+            "score": 4
+          },
+          {
+            "text": "Automated rejection workflow with supplier debit note and corrective action loop",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F07",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Material Identification",
+        "text": "How is material labelling and identification done at inwarding?",
+        "options": [
+          {
+            "text": "No labelling; identified by location",
+            "score": 1
+          },
+          {
+            "text": "Manual handwritten tags",
+            "score": 2
+          },
+          {
+            "text": "Printed labels with basic info (name, date, quantity)",
+            "score": 3
+          },
+          {
+            "text": "Barcode labels generated from ERP at GRN",
+            "score": 4
+          },
+          {
+            "text": "QR/RFID labels with full traceability to supplier batch and test results",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F08",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Material Movement",
+        "text": "How is the unloading and material movement from gate to store tracked?",
+        "options": [
+          {
+            "text": "No tracking; unloading team handles informally",
+            "score": 1
+          },
+          {
+            "text": "Manual tallying by store keeper",
+            "score": 2
+          },
+          {
+            "text": "Material movement slip raised manually",
+            "score": 3
+          },
+          {
+            "text": "ERP material transfer document created on movement",
+            "score": 4
+          },
+          {
+            "text": "Digital MHE (material handling equipment) log with GPS or RFID tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F09",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Supplier Performance",
+        "text": "How is supplier performance on delivery compliance tracked?",
+        "options": [
+          {
+            "text": "Not tracked",
+            "score": 1
+          },
+          {
+            "text": "Informal notes on late deliveries",
+            "score": 2
+          },
+          {
+            "text": "Manual delivery performance log updated monthly",
+            "score": 3
+          },
+          {
+            "text": "ERP-based on-time delivery % and short-delivery reporting",
+            "score": 4
+          },
+          {
+            "text": "Automated supplier scorecard with delivery, quality and lead-time KPIs",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F10",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Inwarding Planning",
+        "text": "How are advance shipping notifications (ASN) or dispatch alerts managed?",
+        "options": [
+          {
+            "text": "No advance notice; surprises at gate",
+            "score": 1
+          },
+          {
+            "text": "Phone or WhatsApp intimation only",
+            "score": 2
+          },
+          {
+            "text": "Email with challan details before arrival",
+            "score": 3
+          },
+          {
+            "text": "Supplier portal with ASN creation before dispatch",
+            "score": 4
+          },
+          {
+            "text": "EDI/API-based real-time dispatch notification with material details",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F11",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Shortage Escalation",
+        "text": "How are material shortages at inwarding escalated to procurement?",
+        "options": [
+          {
+            "text": "Not escalated; handled by store keeper alone",
+            "score": 1
+          },
+          {
+            "text": "Phone call to purchase team",
+            "score": 2
+          },
+          {
+            "text": "Email raised with shortage details",
+            "score": 3
+          },
+          {
+            "text": "ERP-generated alert to procurement on GRN shortfall",
+            "score": 4
+          },
+          {
+            "text": "Automated replenishment trigger sent to approved supplier based on shortage logic",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F12",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Compliance & Safety",
+        "text": "How is hazardous or restricted material identified and segregated at inwarding?",
+        "options": [
+          {
+            "text": "No special process; treated as regular material",
+            "score": 1
+          },
+          {
+            "text": "Store keeper uses experience/judgment",
+            "score": 2
+          },
+          {
+            "text": "Material safety data sheet (MSDS) checked manually",
+            "score": 3
+          },
+          {
+            "text": "MSDS linked to material master in ERP; special handling instructions displayed",
+            "score": 4
+          },
+          {
+            "text": "Digital safety workflow with mandatory MSDS review, PPE checklist, and CPCB/regulation compliance check",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F13",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Analytics & Integration",
+        "text": "How is inwarding data used for production planning or demand forecasting?",
+        "options": [
+          {
+            "text": "No connection between inwarding and production planning",
+            "score": 1
+          },
+          {
+            "text": "Production team manually checks what has arrived",
+            "score": 2
+          },
+          {
+            "text": "Daily GRN summary shared via Excel with planning team",
+            "score": 3
+          },
+          {
+            "text": "ERP auto-updates inventory; planning module considers inward stock",
+            "score": 4
+          },
+          {
+            "text": "Real-time inventory feed from GRN drives MRP and production scheduling automatically",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F14",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Process Efficiency",
+        "text": "How is inwarding cycle time (gate to bin) measured and improved?",
+        "options": [
+          {
+            "text": "Not measured",
+            "score": 1
+          },
+          {
+            "text": "Supervisor estimates informally",
+            "score": 2
+          },
+          {
+            "text": "Manual time log at key steps",
+            "score": 3
+          },
+          {
+            "text": "ERP timestamps at GRN, QC release and bin storage",
+            "score": 4
+          },
+          {
+            "text": "Digital process time analysis with bottleneck alerts and continuous improvement dashboard",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F15",
+        "type": "functional",
+        "area": "Raw Material Inwarding",
+        "category": "Condition Monitoring",
+        "text": "How is temperature or condition-sensitive material monitored during inwarding and initial storage?",
+        "options": [
+          {
+            "text": "No special monitoring",
+            "score": 1
+          },
+          {
+            "text": "Visual inspection only at receipt",
+            "score": 2
+          },
+          {
+            "text": "Manual temperature recording at receipt",
+            "score": 3
+          },
+          {
+            "text": "Digital data-logger checked at inward; result logged in QMS",
+            "score": 4
+          },
+          {
+            "text": "IoT temperature sensor on vehicle/container with automated acceptance/rejection trigger",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F16",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Location Management",
+        "text": "How is warehouse storage location (binning) currently managed?",
+        "options": [
+          {
+            "text": "No defined locations; material kept anywhere available",
+            "score": 1
+          },
+          {
+            "text": "Locations marked physically on floor/racks but no system",
+            "score": 2
+          },
+          {
+            "text": "Excel-based bin register maintained manually",
+            "score": 3
+          },
+          {
+            "text": "ERP/WMS with fixed bin locations per material",
+            "score": 4
+          },
+          {
+            "text": "Dynamic slotting WMS with weight, velocity and dimension-based bin assignment",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F17",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "FIFO Control",
+        "text": "How is FIFO (First-In-First-Out) compliance ensured in the warehouse?",
+        "options": [
+          {
+            "text": "Not followed; material issued randomly",
+            "score": 1
+          },
+          {
+            "text": "Store keeper maintains FIFO by memory/experience",
+            "score": 2
+          },
+          {
+            "text": "Date labels on materials; staff trained on FIFO",
+            "score": 3
+          },
+          {
+            "text": "WMS enforces FIFO; system suggests oldest batch first",
+            "score": 4
+          },
+          {
+            "text": "Automated FIFO control via RFID/barcode with operator alerts for out-of-sequence picks",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F18",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Inventory Accuracy",
+        "text": "How is inventory quantity accuracy maintained in the warehouse?",
+        "options": [
+          {
+            "text": "Physical counting done annually only",
+            "score": 1
+          },
+          {
+            "text": "Monthly physical count reconciled with register",
+            "score": 2
+          },
+          {
+            "text": "Cycle counting process defined; deviations noted",
+            "score": 3
+          },
+          {
+            "text": "ERP-based perpetual inventory with discrepancy reporting",
+            "score": 4
+          },
+          {
+            "text": "Real-time inventory accuracy with RFID/barcode; automated cycle count triggers",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F19",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Material Issue Process",
+        "text": "How is material issued from the warehouse to production?",
+        "options": [
+          {
+            "text": "Informal verbal request; no documentation",
+            "score": 1
+          },
+          {
+            "text": "Manual material requisition slip filled by production",
+            "score": 2
+          },
+          {
+            "text": "Store keeper issues against signed requisition; Excel updated",
+            "score": 3
+          },
+          {
+            "text": "ERP material issue against production order; stock auto-deducted",
+            "score": 4
+          },
+          {
+            "text": "Pull-based digital kanban or automated material call from shop floor",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F20",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Inventory Health",
+        "text": "How is slow-moving or dead stock identified and actioned?",
+        "options": [
+          {
+            "text": "Not identified; stock piles up unnoticed",
+            "score": 1
+          },
+          {
+            "text": "Annual review by purchase manager",
+            "score": 2
+          },
+          {
+            "text": "Quarterly Excel analysis of non-moving items",
+            "score": 3
+          },
+          {
+            "text": "ERP generates slow-moving report; management reviews monthly",
+            "score": 4
+          },
+          {
+            "text": "AI-powered inventory health dashboard with automatic disposal/redeployment recommendations",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F21",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Storage Environment",
+        "text": "How is the controlled storage environment (temperature, humidity) for sensitive materials managed?",
+        "options": [
+          {
+            "text": "No controlled storage; all material kept in open warehouse",
+            "score": 1
+          },
+          {
+            "text": "Separate room used but no monitoring instruments",
+            "score": 2
+          },
+          {
+            "text": "Manual temperature/humidity log maintained",
+            "score": 3
+          },
+          {
+            "text": "Calibrated digital monitoring with records in QMS",
+            "score": 4
+          },
+          {
+            "text": "IoT sensors with continuous monitoring, automated alarms and HVAC integration",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F22",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Shelf Life Management",
+        "text": "How are materials that are nearing expiry or shelf life tracked?",
+        "options": [
+          {
+            "text": "No shelf life tracking",
+            "score": 1
+          },
+          {
+            "text": "Store keeper checks labels periodically",
+            "score": 2
+          },
+          {
+            "text": "Excel tracker with expiry dates; reviewed monthly",
+            "score": 3
+          },
+          {
+            "text": "ERP auto-alert when material nears shelf life threshold",
+            "score": 4
+          },
+          {
+            "text": "System blocks issuance of expired material; auto-triggers disposal/return workflow",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F23",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Space Utilisation",
+        "text": "How is warehouse space utilisation measured and optimised?",
+        "options": [
+          {
+            "text": "No measurement; space issues handled informally",
+            "score": 1
+          },
+          {
+            "text": "Visual estimate by warehouse manager",
+            "score": 2
+          },
+          {
+            "text": "Manual occupancy map updated periodically",
+            "score": 3
+          },
+          {
+            "text": "WMS with space utilisation reporting by location/zone",
+            "score": 4
+          },
+          {
+            "text": "3D warehouse simulation with AI-driven slotting and space optimisation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F24",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Returns Management",
+        "text": "How are goods returned from production (excess/rejected material) managed?",
+        "options": [
+          {
+            "text": "Returned material placed anywhere; no formal process",
+            "score": 1
+          },
+          {
+            "text": "Separate area used but no documentation",
+            "score": 2
+          },
+          {
+            "text": "Manual return note raised and entered in register",
+            "score": 3
+          },
+          {
+            "text": "ERP return to store document raised; stock reinstated",
+            "score": 4
+          },
+          {
+            "text": "Barcode-scanned return process with automated condition check and restocking routing",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F25",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "MHE Management",
+        "text": "How is material handling equipment (forklifts, pallet trucks) utilisation and maintenance tracked?",
+        "options": [
+          {
+            "text": "No tracking; breakdowns handled reactively",
+            "score": 1
+          },
+          {
+            "text": "Manual logbook for usage and maintenance",
+            "score": 2
+          },
+          {
+            "text": "Excel-based maintenance schedule",
+            "score": 3
+          },
+          {
+            "text": "Digital preventive maintenance system with alerts",
+            "score": 4
+          },
+          {
+            "text": "IoT-enabled MHE with real-time utilisation data, predictive maintenance and operator assignment",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F26",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Consumable Management",
+        "text": "How is packing material and consumable stock managed separately in the warehouse?",
+        "options": [
+          {
+            "text": "Mixed with raw material; no separate control",
+            "score": 1
+          },
+          {
+            "text": "Separate area maintained manually",
+            "score": 2
+          },
+          {
+            "text": "Independent Excel register for packing materials",
+            "score": 3
+          },
+          {
+            "text": "Separate material type in ERP with reorder level",
+            "score": 4
+          },
+          {
+            "text": "Automated consumption tracking linked to production orders; auto-replenishment triggered",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F27",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Warehouse Security",
+        "text": "How is access control and security of the warehouse managed?",
+        "options": [
+          {
+            "text": "No access restriction; anyone can enter",
+            "score": 1
+          },
+          {
+            "text": "Physical lock with key; no log maintained",
+            "score": 2
+          },
+          {
+            "text": "Gated entry with manual visitor/staff register",
+            "score": 3
+          },
+          {
+            "text": "Biometric or card-based access log maintained",
+            "score": 4
+          },
+          {
+            "text": "CCTV with AI motion detection, digital access log and exception alerts",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F28",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Inter-Store Transfer",
+        "text": "How is inter-store transfer (raw material to sub-store or work-in-progress store) managed?",
+        "options": [
+          {
+            "text": "Informal movement without documentation",
+            "score": 1
+          },
+          {
+            "text": "Physical transfer slip used",
+            "score": 2
+          },
+          {
+            "text": "Manual transfer voucher entered in Excel",
+            "score": 3
+          },
+          {
+            "text": "ERP transfer order raised between storage locations",
+            "score": 4
+          },
+          {
+            "text": "Barcode-triggered transfer with real-time stock update and route tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F29",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Layout Optimisation",
+        "text": "How is the warehouse layout reviewed and updated?",
+        "options": [
+          {
+            "text": "Layout never reviewed; unchanged for years",
+            "score": 1
+          },
+          {
+            "text": "Reviewed informally when problems arise",
+            "score": 2
+          },
+          {
+            "text": "Annual manual review with floor plan update",
+            "score": 3
+          },
+          {
+            "text": "WMS-based velocity analysis drives annual slotting review",
+            "score": 4
+          },
+          {
+            "text": "Continuous AI-driven layout optimisation based on pick frequency, weight and safety rules",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F30",
+        "type": "functional",
+        "area": "Warehousing",
+        "category": "Warehouse Analytics",
+        "text": "How is warehouse KPI (on-time issue, accuracy, cycle count variance) reporting done?",
+        "options": [
+          {
+            "text": "No KPIs tracked",
+            "score": 1
+          },
+          {
+            "text": "Verbal updates from store keeper",
+            "score": 2
+          },
+          {
+            "text": "Monthly manual report prepared in Excel",
+            "score": 3
+          },
+          {
+            "text": "ERP-generated warehouse KPI dashboard reviewed by management",
+            "score": 4
+          },
+          {
+            "text": "Real-time live dashboard with drill-down analytics, trend charts and AI recommendations",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F31",
+        "type": "functional",
+        "area": "Production",
+        "category": "Production Planning",
+        "text": "How is the production plan created and communicated to the shop floor?",
+        "options": [
+          {
+            "text": "Verbal Instruction from owner/manager daily",
+            "score": 1
+          },
+          {
+            "text": "Handwritten daily production schedule on whiteboard",
+            "score": 2
+          },
+          {
+            "text": "Excel-based weekly plan shared via WhatsApp/email",
+            "score": 3
+          },
+          {
+            "text": "ERP production order generated and dispatched digitally",
+            "score": 4
+          },
+          {
+            "text": "AI-driven production schedule linked to demand forecast, material availability and machine capacity",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F32",
+        "type": "functional",
+        "area": "Production",
+        "category": "Machine Data Capture",
+        "text": "How is machine downtime and breakdown data captured?",
+        "options": [
+          {
+            "text": "Not captured; machines repaired when they stop",
+            "score": 1
+          },
+          {
+            "text": "Operator verbally informs supervisor; no record",
+            "score": 2
+          },
+          {
+            "text": "Manual breakdown register maintained",
+            "score": 3
+          },
+          {
+            "text": "Digital breakdown log with downtime reason codes in ERP/MES",
+            "score": 4
+          },
+          {
+            "text": "IoT machine sensors with automatic downtime detection, root cause classification and MTTR tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F33",
+        "type": "functional",
+        "area": "Production",
+        "category": "Shift Reporting",
+        "text": "How is shift-wise production output recorded and reported?",
+        "options": [
+          {
+            "text": "No shift reporting; only end-of-day count",
+            "score": 1
+          },
+          {
+            "text": "Physical tally sheet filled by operator",
+            "score": 2
+          },
+          {
+            "text": "Excel sheet submitted by supervisor per shift",
+            "score": 3
+          },
+          {
+            "text": "Digital shift report in MES/ERP with actual vs. planned comparison",
+            "score": 4
+          },
+          {
+            "text": "Real-time counter or SCADA-linked automated production count with live dashboard",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F34",
+        "type": "functional",
+        "area": "Production",
+        "category": "Shift Allocation",
+        "text": "How is shift allocation and operator-to-machine assignment managed?",
+        "options": [
+          {
+            "text": "Owner/supervisor decides verbally",
+            "score": 1
+          },
+          {
+            "text": "Physical shift roster on notice board",
+            "score": 2
+          },
+          {
+            "text": "Excel-based shift schedule updated weekly",
+            "score": 3
+          },
+          {
+            "text": "Digital shift management in HRMS/ERP with operator skills matrix",
+            "score": 4
+          },
+          {
+            "text": "AI-optimised shift allocation based on skill, absenteeism data and machine requirements",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F35",
+        "type": "functional",
+        "area": "Production",
+        "category": "Material Delivery to Floor",
+        "text": "How is raw material delivery to the shop floor (from store to machine) managed?",
+        "options": [
+          {
+            "text": "Operator walks to store whenever needed",
+            "score": 1
+          },
+          {
+            "text": "Supervisor calls store keeper when material runs low",
+            "score": 2
+          },
+          {
+            "text": "Pre-planned material kit issued at start of shift",
+            "score": 3
+          },
+          {
+            "text": "ERP-generated material requisition linked to production order",
+            "score": 4
+          },
+          {
+            "text": "Automated kanban or AGV-driven material replenishment to machine side",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F36",
+        "type": "functional",
+        "area": "Production",
+        "category": "Manpower Planning",
+        "text": "How is manpower planning (headcount requirement per shift) done?",
+        "options": [
+          {
+            "text": "No formal planning; whoever is present is deployed",
+            "score": 1
+          },
+          {
+            "text": "Experience-based judgment by production manager",
+            "score": 2
+          },
+          {
+            "text": "Excel-based headcount plan reviewed weekly",
+            "score": 3
+          },
+          {
+            "text": "ERP workforce planning module aligned with production orders",
+            "score": 4
+          },
+          {
+            "text": "AI-driven manpower demand model integrating absenteeism patterns, OEE and production plan",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F37",
+        "type": "functional",
+        "area": "Production",
+        "category": "In-Process Quality",
+        "text": "How is in-process quality (first-pass yield, defects) monitored during production?",
+        "options": [
+          {
+            "text": "No in-process monitoring; quality checked at end",
+            "score": 1
+          },
+          {
+            "text": "Operator self-inspection with visual check",
+            "score": 2
+          },
+          {
+            "text": "QC inspector checks at defined frequency; paper record",
+            "score": 3
+          },
+          {
+            "text": "Digital in-process quality log in QMS linked to production order",
+            "score": 4
+          },
+          {
+            "text": "Automated SPC (Statistical Process Control) with real-time control charts and auto-alarm",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F38",
+        "type": "functional",
+        "area": "Production",
+        "category": "OEE Measurement",
+        "text": "How is Overall Equipment Effectiveness (OEE) measured?",
+        "options": [
+          {
+            "text": "Not measured",
+            "score": 1
+          },
+          {
+            "text": "Availability calculated informally; no formal OEE",
+            "score": 2
+          },
+          {
+            "text": "Manual OEE calculation from shift reports in Excel",
+            "score": 3
+          },
+          {
+            "text": "MES-based OEE dashboard updated daily",
+            "score": 4
+          },
+          {
+            "text": "Real-time IoT-based OEE with automatic loss categorisation (planned, unplanned, quality)",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F39",
+        "type": "functional",
+        "area": "Production",
+        "category": "WIP Tracking",
+        "text": "How is work-in-progress (WIP) inventory tracked on the shop floor?",
+        "options": [
+          {
+            "text": "Not tracked; WIP found wherever left",
+            "score": 1
+          },
+          {
+            "text": "Supervisor does visual walkthrough",
+            "score": 2
+          },
+          {
+            "text": "Manual WIP tally recorded per shift",
+            "score": 3
+          },
+          {
+            "text": "ERP WIP report updated as production orders are processed",
+            "score": 4
+          },
+          {
+            "text": "Real-time WIP tracking with RFID/barcode scan at each operation stage",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F40",
+        "type": "functional",
+        "area": "Production",
+        "category": "Scrap & Rework",
+        "text": "How is scrap and rework generated during production recorded and managed?",
+        "options": [
+          {
+            "text": "No formal record; scrap discarded informally",
+            "score": 1
+          },
+          {
+            "text": "Monthly scrap weight estimated by supervisor",
+            "score": 2
+          },
+          {
+            "text": "Manual scrap register per machine/operator",
+            "score": 3
+          },
+          {
+            "text": "ERP scrap reporting linked to production order with cost impact",
+            "score": 4
+          },
+          {
+            "text": "Digital scrap analytics with Pareto reporting, root cause and cost recovery tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F41",
+        "type": "functional",
+        "area": "Production",
+        "category": "Tooling Management",
+        "text": "How is tool, die and jig life and consumption tracked on the shop floor?",
+        "options": [
+          {
+            "text": "Not tracked; replaced when broken",
+            "score": 1
+          },
+          {
+            "text": "Manual tool issue register in store",
+            "score": 2
+          },
+          {
+            "text": "Excel-based tool life tracking per machine",
+            "score": 3
+          },
+          {
+            "text": "ERP tool management with usage counter and replacement alerts",
+            "score": 4
+          },
+          {
+            "text": "IoT tool monitoring with wear prediction and automatic reorder trigger",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F42",
+        "type": "functional",
+        "area": "Production",
+        "category": "Preventive Maintenance",
+        "text": "How is machine preventive maintenance (PM) scheduled and executed?",
+        "options": [
+          {
+            "text": "No PM; only breakdown maintenance",
+            "score": 1
+          },
+          {
+            "text": "PM done based on operator experience/feel",
+            "score": 2
+          },
+          {
+            "text": "Periodic PM checklist on paper",
+            "score": 3
+          },
+          {
+            "text": "Digital PM schedule in CMMS (Computerised Maintenance Management System)",
+            "score": 4
+          },
+          {
+            "text": "Predictive maintenance using vibration/temperature IoT sensors with auto-work-order creation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F43",
+        "type": "functional",
+        "area": "Production",
+        "category": "Performance Review",
+        "text": "How is production target vs. achievement reviewed with the team?",
+        "options": [
+          {
+            "text": "No formal review",
+            "score": 1
+          },
+          {
+            "text": "Verbal discussion at end of day",
+            "score": 2
+          },
+          {
+            "text": "Daily morning meeting with printed report",
+            "score": 3
+          },
+          {
+            "text": "Daily digital dashboard reviewed in production review meeting",
+            "score": 4
+          },
+          {
+            "text": "Continuous real-time shop floor display (andon board) with exception escalation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F44",
+        "type": "functional",
+        "area": "Production",
+        "category": "SOP Management",
+        "text": "How are standard operating procedures (SOPs) communicated to operators?",
+        "options": [
+          {
+            "text": "No formal SOPs; verbal training only",
+            "score": 1
+          },
+          {
+            "text": "Printed SOPs on machine; not regularly updated",
+            "score": 2
+          },
+          {
+            "text": "Controlled document system with periodic SOP revision",
+            "score": 3
+          },
+          {
+            "text": "Digital SOP library accessible on tablets/screens at machine",
+            "score": 4
+          },
+          {
+            "text": "Interactive multimedia SOP with AR/video guidance and operator acknowledgement tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F45",
+        "type": "functional",
+        "area": "Production",
+        "category": "Energy in Production",
+        "text": "How is production-related energy consumption (per machine/shift) tracked?",
+        "options": [
+          {
+            "text": "Not tracked at machine level",
+            "score": 1
+          },
+          {
+            "text": "Overall factory meter reviewed; not allocated to production",
+            "score": 2
+          },
+          {
+            "text": "Manual meter reading per machine area",
+            "score": 3
+          },
+          {
+            "text": "Sub-metering with digital reading per production line",
+            "score": 4
+          },
+          {
+            "text": "IoT energy monitoring per machine with consumption vs. output ratio and OEE linkage",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F46",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Raw Material Quality",
+        "text": "How is incoming raw material quality testing performed and documented?",
+        "options": [
+          {
+            "text": "No incoming quality testing",
+            "score": 1
+          },
+          {
+            "text": "Visual check only; result in manual register",
+            "score": 2
+          },
+          {
+            "text": "Lab testing with paper test report filed",
+            "score": 3
+          },
+          {
+            "text": "Digital test report in QMS linked to GRN",
+            "score": 4
+          },
+          {
+            "text": "Automated test equipment with direct data transfer to QMS; auto-acceptance/rejection",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F47",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Specification Control",
+        "text": "How is the approved vendor list (AVL) and material specification managed?",
+        "options": [
+          {
+            "text": "No AVL; any supplier accepted",
+            "score": 1
+          },
+          {
+            "text": "Informal list maintained by purchase manager",
+            "score": 2
+          },
+          {
+            "text": "Excel-based AVL with material specs",
+            "score": 3
+          },
+          {
+            "text": "QMS-based controlled AVL with revision history",
+            "score": 4
+          },
+          {
+            "text": "Integrated AVL in ERP with auto-validation at GRN and supplier performance linkage",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F48",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Finished Goods Inspection",
+        "text": "How is finished goods quality inspection (final inspection) carried out?",
+        "options": [
+          {
+            "text": "No final inspection; dispatched as produced",
+            "score": 1
+          },
+          {
+            "text": "Visual inspection by packing team",
+            "score": 2
+          },
+          {
+            "text": "Sampling-based inspection with paper inspection report",
+            "score": 3
+          },
+          {
+            "text": "Digital final inspection report in QMS before dispatch clearance",
+            "score": 4
+          },
+          {
+            "text": "Automated inspection (vision system/CMM) with digital release and customer COA auto-generation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F49",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Customer Complaints",
+        "text": "How are customer quality complaints received, logged and resolved?",
+        "options": [
+          {
+            "text": "Verbal complaints acknowledged; no formal tracking",
+            "score": 1
+          },
+          {
+            "text": "Complaint noted in register; addressed informally",
+            "score": 2
+          },
+          {
+            "text": "Manual complaint register with resolution notes",
+            "score": 3
+          },
+          {
+            "text": "CRM/QMS-based complaint module with closure timeline tracking",
+            "score": 4
+          },
+          {
+            "text": "Digital customer portal with real-time complaint status, 8D report and repeat-prevention analytics",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F50",
+        "type": "functional",
+        "area": "Quality",
+        "category": "CAPA Management",
+        "text": "How is corrective and preventive action (CAPA) managed for quality failures?",
+        "options": [
+          {
+            "text": "No formal CAPA process",
+            "score": 1
+          },
+          {
+            "text": "Issue fixed immediately; no root cause analysis",
+            "score": 2
+          },
+          {
+            "text": "Manual CAPA form filled and filed",
+            "score": 3
+          },
+          {
+            "text": "Digital CAPA module in QMS with owner, due date and verification",
+            "score": 4
+          },
+          {
+            "text": "AI-assisted root cause suggestion; CAPA effectiveness trend analysis with closure metrics",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F51",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Calibration Management",
+        "text": "How is the calibration of measuring instruments and test equipment managed?",
+        "options": [
+          {
+            "text": "No calibration done",
+            "score": 1
+          },
+          {
+            "text": "External agency calibrates; certificates filed physically",
+            "score": 2
+          },
+          {
+            "text": "Manual calibration schedule and log maintained",
+            "score": 3
+          },
+          {
+            "text": "Digital calibration management in QMS with due-date alerts",
+            "score": 4
+          },
+          {
+            "text": "Automated calibration scheduling with instrument status flag in QMS; blocked if expired",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F52",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Document Control",
+        "text": "How are product specifications, drawings and quality standards maintained and controlled?",
+        "options": [
+          {
+            "text": "No controlled documents; versions vary across machines",
+            "score": 1
+          },
+          {
+            "text": "Physical binder with drawings; not always updated",
+            "score": 2
+          },
+          {
+            "text": "Shared folder with version management by quality manager",
+            "score": 3
+          },
+          {
+            "text": "QMS document control module with approval workflow and access control",
+            "score": 4
+          },
+          {
+            "text": "Integrated PLM/QMS with auto-distribution of updated specs to shop floor terminals",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F53",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Quality Analytics",
+        "text": "How is in-process quality data analysed for trends and process improvements?",
+        "options": [
+          {
+            "text": "No analysis; data not collected consistently",
+            "score": 1
+          },
+          {
+            "text": "Occasional manual tabulation in Excel",
+            "score": 2
+          },
+          {
+            "text": "Monthly quality reports prepared manually",
+            "score": 3
+          },
+          {
+            "text": "QMS dashboard with trend charts, Cpk and defect Pareto",
+            "score": 4
+          },
+          {
+            "text": "AI-powered SPC with automatic process drift detection and improvement recommendation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F54",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Traceability",
+        "text": "How is product lot / batch traceability maintained from raw material to customer?",
+        "options": [
+          {
+            "text": "No traceability",
+            "score": 1
+          },
+          {
+            "text": "Batch number noted manually in register",
+            "score": 2
+          },
+          {
+            "text": "Excel-based lot tracking at each stage",
+            "score": 3
+          },
+          {
+            "text": "ERP-based end-to-end lot traceability",
+            "score": 4
+          },
+          {
+            "text": "Digital genealogy tree with full forward and backward traceability; QR code on product",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F55",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Customer Quality Requirements",
+        "text": "How is customer-specific quality requirement (PPAP, FAI, ISIR) managed?",
+        "options": [
+          {
+            "text": "Not aware of/not applicable",
+            "score": 1
+          },
+          {
+            "text": "Prepared manually when customer asks",
+            "score": 2
+          },
+          {
+            "text": "Templates maintained in shared folder; submitted by quality engineer",
+            "score": 3
+          },
+          {
+            "text": "QMS module for PPAP/FAI with revision and submission tracking",
+            "score": 4
+          },
+          {
+            "text": "Automated PPAP package generation from ERP/QMS data with customer portal submission",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F56",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Supplier Quality",
+        "text": "How is supplier quality rating and development managed?",
+        "options": [
+          {
+            "text": "No supplier quality assessment",
+            "score": 1
+          },
+          {
+            "text": "Informal feedback given to supplier on phone",
+            "score": 2
+          },
+          {
+            "text": "Manual supplier audit checklist; annual review",
+            "score": 3
+          },
+          {
+            "text": "QMS-based supplier scorecard updated per lot; periodic audit",
+            "score": 4
+          },
+          {
+            "text": "Digital supplier development portal with real-time quality KPIs and improvement plan tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F57",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Non-Conforming Material",
+        "text": "How is the hold and release of non-conforming material managed?",
+        "options": [
+          {
+            "text": "Non-conforming material mixed with accepted stock",
+            "score": 1
+          },
+          {
+            "text": "Physically tagged/segregated; no system entry",
+            "score": 2
+          },
+          {
+            "text": "Manual NCR (Non-Conformance Report) raised and filed",
+            "score": 3
+          },
+          {
+            "text": "Digital NCR in QMS with disposition decision and material quarantine flag in ERP",
+            "score": 4
+          },
+          {
+            "text": "Automated quarantine zone trigger with CAPA linkage and lot recall capability",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F58",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Cost of Quality",
+        "text": "How are quality-related costs (cost of poor quality – COPQ) tracked?",
+        "options": [
+          {
+            "text": "Not tracked",
+            "score": 1
+          },
+          {
+            "text": "Rough estimate based on scrap weight/value",
+            "score": 2
+          },
+          {
+            "text": "Manual COPQ calculation in Excel quarterly",
+            "score": 3
+          },
+          {
+            "text": "ERP-based scrap, rework and warranty cost reporting",
+            "score": 4
+          },
+          {
+            "text": "Integrated COPQ dashboard with prevention, appraisal and failure cost breakdown",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F59",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Compliance & Audit",
+        "text": "How is ISO/quality certification compliance maintained on an ongoing basis?",
+        "options": [
+          {
+            "text": "No certification; no plans",
+            "score": 1
+          },
+          {
+            "text": "Aware but not pursuing",
+            "score": 2
+          },
+          {
+            "text": "Manual evidence collection before surveillance audit",
+            "score": 3
+          },
+          {
+            "text": "QMS module for internal audit, observation tracking and management review",
+            "score": 4
+          },
+          {
+            "text": "Continuous compliance monitoring with automated audit readiness score and evidence linking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F60",
+        "type": "functional",
+        "area": "Quality",
+        "category": "Customer Satisfaction",
+        "text": "How are customer satisfaction scores tracked and acted upon?",
+        "options": [
+          {
+            "text": "Not tracked",
+            "score": 1
+          },
+          {
+            "text": "Informal feedback from sales team",
+            "score": 2
+          },
+          {
+            "text": "Annual customer satisfaction survey via email/form",
+            "score": 3
+          },
+          {
+            "text": "CRM-based customer feedback module with response tracking",
+            "score": 4
+          },
+          {
+            "text": "Real-time NPS dashboard with sentiment analysis and auto-escalation for detractors",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F61",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Stock Availability",
+        "text": "How is stock availability checked before confirming a customer order?",
+        "options": [
+          {
+            "text": "Not checked; orders committed without stock verification",
+            "score": 1
+          },
+          {
+            "text": "Store keeper manually checks physically",
+            "score": 2
+          },
+          {
+            "text": "Excel inventory checked by sales/planning team",
+            "score": 3
+          },
+          {
+            "text": "ERP available-to-promise (ATP) check done before order confirmation",
+            "score": 4
+          },
+          {
+            "text": "Real-time ATP with reservation logic, pending orders and production schedule considered",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F62",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "BOM Management",
+        "text": "How is the Bill of Materials (BOM) created and maintained?",
+        "options": [
+          {
+            "text": "No formal BOM; quantities estimated by production",
+            "score": 1
+          },
+          {
+            "text": "Manual BOM in paper or simple list",
+            "score": 2
+          },
+          {
+            "text": "Excel-based BOM maintained per product",
+            "score": 3
+          },
+          {
+            "text": "ERP BOM with multi-level structure and version control",
+            "score": 4
+          },
+          {
+            "text": "Engineering BOM (EBOM) integrated with manufacturing BOM (MBOM) in PLM/ERP; auto-updated on ECN",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F63",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "MRP Execution",
+        "text": "How is Material Requirements Planning (MRP) run to determine procurement needs?",
+        "options": [
+          {
+            "text": "No MRP; purchases made on gut feel",
+            "score": 1
+          },
+          {
+            "text": "Buyer manually calculates requirements from sales plan",
+            "score": 2
+          },
+          {
+            "text": "Excel-based MRP run monthly",
+            "score": 3
+          },
+          {
+            "text": "ERP MRP run regularly with reorder levels and lead times",
+            "score": 4
+          },
+          {
+            "text": "Dynamic MRP with real-time demand signals, supplier lead time and safety stock optimisation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F64",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Dispatch Planning",
+        "text": "How is the dispatch schedule created and communicated to the logistics team?",
+        "options": [
+          {
+            "text": "Verbal instructions on the day of dispatch",
+            "score": 1
+          },
+          {
+            "text": "Daily dispatch list written on whiteboard",
+            "score": 2
+          },
+          {
+            "text": "Excel dispatch plan shared via WhatsApp/email",
+            "score": 3
+          },
+          {
+            "text": "ERP delivery schedule generated from sales orders",
+            "score": 4
+          },
+          {
+            "text": "Integrated logistics module with carrier booking, route optimisation and customer notification",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F65",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Procurement Tracking",
+        "text": "How is the inwarding/receiving process for purchased goods tracked in the supply chain?",
+        "options": [
+          {
+            "text": "No tracking; supplier delivers when convenient",
+            "score": 1
+          },
+          {
+            "text": "Purchase team follows up by phone",
+            "score": 2
+          },
+          {
+            "text": "Excel PO tracker with expected and actual dates",
+            "score": 3
+          },
+          {
+            "text": "ERP PO tracking with supplier acknowledgement and delivery status",
+            "score": 4
+          },
+          {
+            "text": "Supplier portal with real-time dispatch tracking, ASN and exception alerts",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F66",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Freight Cost Management",
+        "text": "How is freight and logistics cost tracked and optimised?",
+        "options": [
+          {
+            "text": "Not tracked; paid as billed",
+            "score": 1
+          },
+          {
+            "text": "Bills checked manually and entered in accounts",
+            "score": 2
+          },
+          {
+            "text": "Excel tracker with freight cost per shipment",
+            "score": 3
+          },
+          {
+            "text": "ERP freight module with cost allocation to orders",
+            "score": 4
+          },
+          {
+            "text": "AI-powered logistics spend analytics with carrier comparison, route cost and mode optimisation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F67",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Outbound Tracking",
+        "text": "How are outbound shipments tracked after they leave the factory?",
+        "options": [
+          {
+            "text": "No tracking; customer informed only when delivery is expected",
+            "score": 1
+          },
+          {
+            "text": "Transporter is called for status updates",
+            "score": 2
+          },
+          {
+            "text": "Courier/transporter tracking number shared with customer",
+            "score": 3
+          },
+          {
+            "text": "Integrated logistics portal with real-time shipment visibility",
+            "score": 4
+          },
+          {
+            "text": "GPS-enabled vehicle tracking with live ETA, geofence alerts and customer self-service portal",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F68",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Returns Logistics",
+        "text": "How is reverse logistics (returns, rejections from customers) managed?",
+        "options": [
+          {
+            "text": "No formal process; ad hoc handling",
+            "score": 1
+          },
+          {
+            "text": "Driver brings back rejected goods; handled informally",
+            "score": 2
+          },
+          {
+            "text": "Manual return note raised; goods stored in separate area",
+            "score": 3
+          },
+          {
+            "text": "ERP return order process with credit note and stock reinstatement",
+            "score": 4
+          },
+          {
+            "text": "Digital returns portal with reason capture, inspection workflow and supplier/customer debit automation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F69",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Load Planning",
+        "text": "How is multi-customer or multi-destination despatch consolidated and planned?",
+        "options": [
+          {
+            "text": "Single customer per vehicle; no consolidation",
+            "score": 1
+          },
+          {
+            "text": "Informal bundling based on direction",
+            "score": 2
+          },
+          {
+            "text": "Manual loading plan prepared by dispatch team",
+            "score": 3
+          },
+          {
+            "text": "ERP vehicle loading list based on delivery routes",
+            "score": 4
+          },
+          {
+            "text": "AI-driven load planning with weight, volume, delivery window and route optimisation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F70",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Document Accuracy",
+        "text": "How is the accuracy of dispatch documentation (invoice, e-way bill, packing list) ensured?",
+        "options": [
+          {
+            "text": "Manual documents with frequent errors",
+            "score": 1
+          },
+          {
+            "text": "Accounts team checks before dispatch",
+            "score": 2
+          },
+          {
+            "text": "Checklist used before loading",
+            "score": 3
+          },
+          {
+            "text": "ERP auto-generates all dispatch documents from sales order",
+            "score": 4
+          },
+          {
+            "text": "Digital document validation with auto e-way bill generation via GST API and customer portal sharing",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F71",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "FG Warehouse",
+        "text": "How is finished goods warehouse space and outbound readiness managed?",
+        "options": [
+          {
+            "text": "No defined FG storage; goods kept anywhere",
+            "score": 1
+          },
+          {
+            "text": "Separate area marked; no formal location management",
+            "score": 2
+          },
+          {
+            "text": "Manual FG register with location",
+            "score": 3
+          },
+          {
+            "text": "WMS with FG bin locations and pick lists",
+            "score": 4
+          },
+          {
+            "text": "Real-time FG slotting with FIFO enforcement and dispatch staging zone management",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F72",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Trade Compliance",
+        "text": "How is import/export compliance and customs documentation managed?",
+        "options": [
+          {
+            "text": "Not applicable or handled entirely by CHA with no visibility",
+            "score": 1
+          },
+          {
+            "text": "Physical file maintained by accounts for each shipment",
+            "score": 2
+          },
+          {
+            "text": "Excel tracker for import/export shipments",
+            "score": 3
+          },
+          {
+            "text": "ERP import/export module with duty calculation and compliance checklist",
+            "score": 4
+          },
+          {
+            "text": "Automated trade compliance platform with HS code validation, duty drawback tracking and regulatory alerts",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F73",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Demand Processing",
+        "text": "How is demand signal from customers (purchase orders, forecasts) received and processed?",
+        "options": [
+          {
+            "text": "Phone and email only; manually entered later",
+            "score": 1
+          },
+          {
+            "text": "Email PO received; manually keyed into system",
+            "score": 2
+          },
+          {
+            "text": "Standard PO template received; data entry semi-automated",
+            "score": 3
+          },
+          {
+            "text": "EDI or customer portal integration for auto-order receipt",
+            "score": 4
+          },
+          {
+            "text": "API-based real-time customer demand integration with auto-ATP and confirmation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F74",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "In-Transit Inventory",
+        "text": "How is in-transit inventory (goods sent to job workers or between plants) tracked?",
+        "options": [
+          {
+            "text": "Not tracked; relies on verbal confirmation",
+            "score": 1
+          },
+          {
+            "text": "Challan copy maintained; no system update",
+            "score": 2
+          },
+          {
+            "text": "Excel tracker for material out on job work",
+            "score": 3
+          },
+          {
+            "text": "ERP subcontracting or stock transfer order tracks in-transit material",
+            "score": 4
+          },
+          {
+            "text": "Real-time in-transit visibility with QR-coded consignments and automated return scheduling",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F75",
+        "type": "functional",
+        "area": "Logistics",
+        "category": "Logistics Analytics",
+        "text": "How is key logistics KPI (OTIF, fill rate, freight cost/unit) measured and reported?",
+        "options": [
+          {
+            "text": "No logistics KPIs measured",
+            "score": 1
+          },
+          {
+            "text": "OTIF estimated informally by sales team",
+            "score": 2
+          },
+          {
+            "text": "Monthly Excel report on key logistics metrics",
+            "score": 3
+          },
+          {
+            "text": "ERP-based logistics dashboard reviewed weekly",
+            "score": 4
+          },
+          {
+            "text": "Real-time logistics performance tower with OTIF, fill rate, cost/unit and carrier benchmarking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F76",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Data Collection",
+        "text": "How is operational data (production, quality, sales) collected and stored?",
+        "options": [
+          {
+            "text": "Not collected systematically; data in people's heads",
+            "score": 1
+          },
+          {
+            "text": "Paper records; manually filed",
+            "score": 2
+          },
+          {
+            "text": "Excel sheets maintained per department",
+            "score": 3
+          },
+          {
+            "text": "ERP/MES database; structured data storage",
+            "score": 4
+          },
+          {
+            "text": "Unified data lake with real-time ingestion from multiple sources (IoT, ERP, CRM)",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F77",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Reporting",
+        "text": "How are daily/weekly management reports generated and shared?",
+        "options": [
+          {
+            "text": "No formal reports; verbal updates",
+            "score": 1
+          },
+          {
+            "text": "Manual report typed or handwritten by manager",
+            "score": 2
+          },
+          {
+            "text": "Excel report compiled and emailed to management",
+            "score": 3
+          },
+          {
+            "text": "ERP-generated reports with scheduled email distribution",
+            "score": 4
+          },
+          {
+            "text": "Automated BI reports pushed to mobile/email with drill-down capability",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F78",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "KPI Dashboards",
+        "text": "How are production and quality KPIs visualised and reviewed?",
+        "options": [
+          {
+            "text": "No KPIs defined",
+            "score": 1
+          },
+          {
+            "text": "KPIs discussed verbally in meetings",
+            "score": 2
+          },
+          {
+            "text": "Excel-based KPI chart updated monthly",
+            "score": 3
+          },
+          {
+            "text": "BI dashboard (Power BI / Tableau) updated daily",
+            "score": 4
+          },
+          {
+            "text": "Real-time live dashboard on shop floor screens with drill-down and alert thresholds",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F79",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Root Cause Analysis",
+        "text": "How is root cause analysis (RCA) performed when a major problem occurs?",
+        "options": [
+          {
+            "text": "No formal RCA; issue fixed and forgotten",
+            "score": 1
+          },
+          {
+            "text": "Discussion among team members; conclusion verbal",
+            "score": 2
+          },
+          {
+            "text": "5-Why or fishbone analysis on paper/whiteboard",
+            "score": 3
+          },
+          {
+            "text": "Digital RCA form in QMS/MES with structured problem-solving",
+            "score": 4
+          },
+          {
+            "text": "AI-assisted RCA with pattern matching across historical data and auto-suggested causes",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F80",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Cross-Functional Analytics",
+        "text": "How is cross-functional data (production + quality + cost) analysed together?",
+        "options": [
+          {
+            "text": "Each department has its own silo; no integration",
+            "score": 1
+          },
+          {
+            "text": "Data manually compiled from different Excel sheets",
+            "score": 2
+          },
+          {
+            "text": "Consolidated Excel dashboard prepared by analyst",
+            "score": 3
+          },
+          {
+            "text": "BI tool connects to ERP for cross-functional reporting",
+            "score": 4
+          },
+          {
+            "text": "Unified analytics platform with cost, quality and production data in single model",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F81",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Financial Analytics",
+        "text": "How are financial performance metrics (margin per order, cost per unit) tracked and visualised?",
+        "options": [
+          {
+            "text": "Only annual P&L from accountant",
+            "score": 1
+          },
+          {
+            "text": "Monthly tally report reviewed",
+            "score": 2
+          },
+          {
+            "text": "Excel-based costing analysis per product",
+            "score": 3
+          },
+          {
+            "text": "ERP product costing with variance analysis",
+            "score": 4
+          },
+          {
+            "text": "Real-time profitability dashboard per product, customer and order with live cost tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F82",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Trend Analysis",
+        "text": "How is trend analysis on defects, downtime or delivery performance performed?",
+        "options": [
+          {
+            "text": "Not performed",
+            "score": 1
+          },
+          {
+            "text": "Supervisor notices issues; no formal trending",
+            "score": 2
+          },
+          {
+            "text": "Monthly Pareto chart in Excel by quality team",
+            "score": 3
+          },
+          {
+            "text": "BI dashboard with rolling trend charts and period comparison",
+            "score": 4
+          },
+          {
+            "text": "Automated anomaly detection with predictive trend alerts before KPI breaches",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F83",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Ad Hoc Analysis",
+        "text": "How is ad hoc data query or drill-down analysis performed by managers?",
+        "options": [
+          {
+            "text": "Managers cannot access data without analyst support",
+            "score": 1
+          },
+          {
+            "text": "Analyst runs Excel queries when asked",
+            "score": 2
+          },
+          {
+            "text": "Pre-built Excel models with filter/pivot capability",
+            "score": 3
+          },
+          {
+            "text": "Self-service BI tool with drag-and-drop reports",
+            "score": 4
+          },
+          {
+            "text": "Natural language query (AI-powered) with instant chart generation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F84",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Sales Analytics",
+        "text": "How is customer-wise or product-wise sales/margin analysis performed?",
+        "options": [
+          {
+            "text": "Not performed; total revenue only",
+            "score": 1
+          },
+          {
+            "text": "Manual calculation by accounts team",
+            "score": 2
+          },
+          {
+            "text": "Excel pivot table for sales analysis",
+            "score": 3
+          },
+          {
+            "text": "CRM/ERP-based customer and product profitability report",
+            "score": 4
+          },
+          {
+            "text": "AI-driven customer lifetime value and product mix optimisation analytics",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F85",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Benchmarking",
+        "text": "How is benchmark comparison (industry standard vs. own performance) done?",
+        "options": [
+          {
+            "text": "No benchmarking",
+            "score": 1
+          },
+          {
+            "text": "Informal comparison shared in industry meetings",
+            "score": 2
+          },
+          {
+            "text": "Manual comparison with industry data once a year",
+            "score": 3
+          },
+          {
+            "text": "ERP-based KPI comparison with targets and industry benchmarks",
+            "score": 4
+          },
+          {
+            "text": "Digital benchmarking platform with industry peer comparison and best practice recommendations",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F86",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Supply Chain Analytics",
+        "text": "How is supply chain analytics (lead time, supplier OTIF, procurement spend) visualised?",
+        "options": [
+          {
+            "text": "Not tracked or visualised",
+            "score": 1
+          },
+          {
+            "text": "Excel summary prepared by purchase manager",
+            "score": 2
+          },
+          {
+            "text": "Monthly spend analysis report in Excel",
+            "score": 3
+          },
+          {
+            "text": "ERP procurement analytics dashboard",
+            "score": 4
+          },
+          {
+            "text": "End-to-end supply chain visibility platform with multi-tier analytics",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F87",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Data Quality",
+        "text": "How is data quality (accuracy, completeness) in reports ensured?",
+        "options": [
+          {
+            "text": "No checks; reports used as-is",
+            "score": 1
+          },
+          {
+            "text": "Manager reviews for obvious errors",
+            "score": 2
+          },
+          {
+            "text": "Periodic manual data audit",
+            "score": 3
+          },
+          {
+            "text": "ERP validation rules prevent incorrect entries",
+            "score": 4
+          },
+          {
+            "text": "Automated data quality monitoring with completeness, accuracy and freshness scores",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F88",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "External Reporting",
+        "text": "How is visualization shared with external stakeholders (bank, buyer, auditor)?",
+        "options": [
+          {
+            "text": "Paper printouts only",
+            "score": 1
+          },
+          {
+            "text": "Excel or PDF emailed manually",
+            "score": 2
+          },
+          {
+            "text": "Formatted PDF reports with charts prepared on request",
+            "score": 3
+          },
+          {
+            "text": "ERP-generated reports with digital signature and export",
+            "score": 4
+          },
+          {
+            "text": "Secure stakeholder portal with live access to curated dashboards",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F89",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Data Archival",
+        "text": "How is historical data archived and retrieved for analysis?",
+        "options": [
+          {
+            "text": "No archival; data lost when register fills up",
+            "score": 1
+          },
+          {
+            "text": "Physical files stored in cupboard",
+            "score": 2
+          },
+          {
+            "text": "Excel files stored in shared drive by year",
+            "score": 3
+          },
+          {
+            "text": "ERP database with multi-year history and export capability",
+            "score": 4
+          },
+          {
+            "text": "Cloud data warehouse with long-term retention, instant query and compliance archival",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F90",
+        "type": "functional",
+        "area": "Analysis & Visualization",
+        "category": "Alerts & Notifications",
+        "text": "How are alerts and notifications configured to inform managers of KPI breaches?",
+        "options": [
+          {
+            "text": "No alerts; manager checks when they remember",
+            "score": 1
+          },
+          {
+            "text": "Operator/supervisor informs verbally",
+            "score": 2
+          },
+          {
+            "text": "Email alerts set up for critical events",
+            "score": 3
+          },
+          {
+            "text": "ERP/BI rule-based alerts via email/SMS",
+            "score": 4
+          },
+          {
+            "text": "AI-driven predictive alerts on mobile/WhatsApp with suggested action before KPI is breached",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F91",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Measurement",
+        "text": "How is total energy consumption (electricity, fuel, gas) currently measured?",
+        "options": [
+          {
+            "text": "Utility bill only; no internal measurement",
+            "score": 1
+          },
+          {
+            "text": "Main meter reading noted monthly",
+            "score": 2
+          },
+          {
+            "text": "Sub-meter readings taken manually per department",
+            "score": 3
+          },
+          {
+            "text": "Digital sub-metering with automated data logging",
+            "score": 4
+          },
+          {
+            "text": "IoT smart meters with real-time energy data, 15-minute interval recording",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F92",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Allocation",
+        "text": "How is energy consumption allocated to individual machines or processes?",
+        "options": [
+          {
+            "text": "Not allocated; total factory consumption only",
+            "score": 1
+          },
+          {
+            "text": "Rough estimate by electrical engineer",
+            "score": 2
+          },
+          {
+            "text": "Manual clamp-meter reading per machine periodically",
+            "score": 3
+          },
+          {
+            "text": "Dedicated energy meters per machine area with manual/ERP logging",
+            "score": 4
+          },
+          {
+            "text": "Machine-level IoT energy metering with automatic allocation to production orders",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F93",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Intensity KPI",
+        "text": "How is energy intensity (energy per unit of production) tracked?",
+        "options": [
+          {
+            "text": "Not tracked",
+            "score": 1
+          },
+          {
+            "text": "Informally estimated at year-end",
+            "score": 2
+          },
+          {
+            "text": "Calculated manually in Excel from production and meter data",
+            "score": 3
+          },
+          {
+            "text": "ERP/BI dashboard showing energy/unit by product or line",
+            "score": 4
+          },
+          {
+            "text": "Real-time energy intensity KPI with target vs. actual and trend analysis",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F94",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Power Quality",
+        "text": "How are peak demand charges and power factor penalties identified and managed?",
+        "options": [
+          {
+            "text": "Not monitored; penalty seen in bill only",
+            "score": 1
+          },
+          {
+            "text": "Electrical team reviews monthly bill for penalties",
+            "score": 2
+          },
+          {
+            "text": "Manual power factor log maintained",
+            "score": 3
+          },
+          {
+            "text": "Digital power analyser with PF and MD recording",
+            "score": 4
+          },
+          {
+            "text": "Automated APFC (Automatic Power Factor Correction) with real-time MD alarm and load scheduling",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F95",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Auditing",
+        "text": "How are energy saving opportunities identified?",
+        "options": [
+          {
+            "text": "Not identified formally",
+            "score": 1
+          },
+          {
+            "text": "Based on past experience of electrician",
+            "score": 2
+          },
+          {
+            "text": "External energy audit done annually",
+            "score": 3
+          },
+          {
+            "text": "Internal energy team reviews monthly data for savings",
+            "score": 4
+          },
+          {
+            "text": "Continuous AI-based energy analytics with automatic saving opportunity identification",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F96",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Compressed Air",
+        "text": "How is compressed air consumption monitored and leak management done?",
+        "options": [
+          {
+            "text": "Not monitored; leaks fixed when audible",
+            "score": 1
+          },
+          {
+            "text": "Visual inspection tour periodically",
+            "score": 2
+          },
+          {
+            "text": "Quarterly ultrasonic leak detection; manual report",
+            "score": 3
+          },
+          {
+            "text": "Air flow meter per zone; consumption log in ERP",
+            "score": 4
+          },
+          {
+            "text": "IoT flow meters with continuous leak detection, alert and repair work-order creation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F97",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Water Management",
+        "text": "How is water consumption tracked and managed in operations?",
+        "options": [
+          {
+            "text": "Not tracked; only utility bill reviewed",
+            "score": 1
+          },
+          {
+            "text": "Manual meter reading monthly",
+            "score": 2
+          },
+          {
+            "text": "Department-level manual water logs",
+            "score": 3
+          },
+          {
+            "text": "Digital water sub-metering with ERP recording",
+            "score": 4
+          },
+          {
+            "text": "IoT water monitoring with process-level consumption, quality check and recycling rate dashboard",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F98",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Renewable Energy",
+        "text": "How is renewable energy (solar, wind) generation and consumption tracked?",
+        "options": [
+          {
+            "text": "No renewable energy on site",
+            "score": 1
+          },
+          {
+            "text": "Solar installed; generation noted from inverter display",
+            "score": 2
+          },
+          {
+            "text": "Monthly generation log maintained in Excel",
+            "score": 3
+          },
+          {
+            "text": "Solar monitoring portal with generation, consumption and grid export data",
+            "score": 4
+          },
+          {
+            "text": "Integrated renewable energy management with real-time self-consumption ratio and carbon credit tracking",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F99",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Idle Energy Reduction",
+        "text": "How is equipment idle time energy waste identified and reduced?",
+        "options": [
+          {
+            "text": "No awareness of idle energy waste",
+            "score": 1
+          },
+          {
+            "text": "Workers switch off machines at end of shift occasionally",
+            "score": 2
+          },
+          {
+            "text": "Manual shutdown checklist",
+            "score": 3
+          },
+          {
+            "text": "Auto-shutdown timers on equipment; manual log",
+            "score": 4
+          },
+          {
+            "text": "IoT-based idle state detection with automatic shutdown command and savings quantification",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F100",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Carbon Tracking",
+        "text": "How is the carbon footprint or greenhouse gas (GHG) emission tracked?",
+        "options": [
+          {
+            "text": "Not tracked",
+            "score": 1
+          },
+          {
+            "text": "Rough estimate from electricity bill units",
+            "score": 2
+          },
+          {
+            "text": "Annual manual GHG calculation using emission factors",
+            "score": 3
+          },
+          {
+            "text": "ERP-based Scope 1 and Scope 2 emission tracking",
+            "score": 4
+          },
+          {
+            "text": "Automated GHG reporting platform with Scope 1, 2, 3 tracking and ESG report generation",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F101",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Compliance",
+        "text": "How is energy compliance (BEE, ISO 50001, PAT scheme) managed?",
+        "options": [
+          {
+            "text": "Not aware of/not applicable",
+            "score": 1
+          },
+          {
+            "text": "Aware but no formal compliance effort",
+            "score": 2
+          },
+          {
+            "text": "Manual compliance documentation before audit",
+            "score": 3
+          },
+          {
+            "text": "Digital energy management system aligned with ISO 50001",
+            "score": 4
+          },
+          {
+            "text": "Continuous BEE/PAT compliance monitoring with automated evidence collection and reporting",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F102",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Cost Allocation",
+        "text": "How is the energy cost per product or per order calculated?",
+        "options": [
+          {
+            "text": "Not calculated",
+            "score": 1
+          },
+          {
+            "text": "Energy cost apportioned equally across products",
+            "score": 2
+          },
+          {
+            "text": "Manual calculation based on machine hours and energy rate",
+            "score": 3
+          },
+          {
+            "text": "ERP energy cost allocation per production order",
+            "score": 4
+          },
+          {
+            "text": "Real-time energy cost per unit with machine-level attribution and costing integration",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F103",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Management Review",
+        "text": "How is energy performance improvement reviewed with management?",
+        "options": [
+          {
+            "text": "Not reviewed",
+            "score": 1
+          },
+          {
+            "text": "Discussed occasionally in management meetings",
+            "score": 2
+          },
+          {
+            "text": "Annual review of energy bills and costs",
+            "score": 3
+          },
+          {
+            "text": "Monthly energy KPI review with BI dashboard",
+            "score": 4
+          },
+          {
+            "text": "Continuous energy performance management system with target-setting, review and reward mechanism",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F104",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "ECM Tracking",
+        "text": "How are energy conservation measures (ECMs) planned and tracked?",
+        "options": [
+          {
+            "text": "No formal ECM programme",
+            "score": 1
+          },
+          {
+            "text": "One-off actions taken when large bills arrive",
+            "score": 2
+          },
+          {
+            "text": "Annual ECM list with manual progress update",
+            "score": 3
+          },
+          {
+            "text": "Digital ECM tracker with investment, savings and payback data",
+            "score": 4
+          },
+          {
+            "text": "ECM portfolio management with ROI ranking, implementation status and verified savings dashboard",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      },
+      {
+        "id": "F105",
+        "type": "functional",
+        "area": "Energy Monitoring",
+        "category": "Energy Culture",
+        "text": "How is employee awareness and behaviour on energy saving promoted?",
+        "options": [
+          {
+            "text": "No awareness programmes",
+            "score": 1
+          },
+          {
+            "text": "Verbal instructions during shift meetings",
+            "score": 2
+          },
+          {
+            "text": "Energy saving posters/notices in plant",
+            "score": 3
+          },
+          {
+            "text": "Digital campaigns with energy KPI screens in canteen/common areas",
+            "score": 4
+          },
+          {
+            "text": "Gamified energy saving programme with team leaderboard, rewards and digital awareness content",
+            "score": 5
+          },
+          {
+            "text": "N/A",
+            "isNA": true
+          }
+        ]
+      }
+    ],
+    "sector": {
+      "textile": [
+        {
+          "id": "ST01",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Production",
+          "text": "How is fabric/yarn consumption and wastage tracked on the shop floor?",
+          "options": [
+            {
+              "text": "No tracking; wastage estimated at month end",
+              "score": 1
+            },
+            {
+              "text": "Manual register maintained by store keeper",
+              "score": 2
+            },
+            {
+              "text": "Excel-based daily consumption sheet",
+              "score": 3
+            },
+            {
+              "text": "Digital shop-floor system with batch-wise material tracking",
+              "score": 4
+            },
+            {
+              "text": "Automated material flow tracking integrated with loom/machine sensors",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST02",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Production",
+          "text": "What level of automation exists in your weaving/stitching/processing operations?",
+          "options": [
+            {
+              "text": "Fully manual operations",
+              "score": 1
+            },
+            {
+              "text": "Semi-automatic machines with no digital controls",
+              "score": 2
+            },
+            {
+              "text": "CNC/programmable machines with manual data entry",
+              "score": 3
+            },
+            {
+              "text": "Machines connected to a central monitoring system",
+              "score": 4
+            },
+            {
+              "text": "Smart looms/machines with IoT sensors and predictive maintenance",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST03",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Quality",
+          "text": "How is fabric/product quality grading and defect tracking done?",
+          "options": [
+            {
+              "text": "Visual inspection by workers with no documentation",
+              "score": 1
+            },
+            {
+              "text": "Manual defect log maintained on paper",
+              "score": 2
+            },
+            {
+              "text": "Standardized defect classification on Excel",
+              "score": 3
+            },
+            {
+              "text": "Digital QMS with defect codes, photos, and trend reports",
+              "score": 4
+            },
+            {
+              "text": "AI-based automated defect detection using camera/vision systems",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST04",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Design",
+          "text": "How are new fabric designs/patterns developed and managed?",
+          "options": [
+            {
+              "text": "Designs created manually on paper or by memory",
+              "score": 1
+            },
+            {
+              "text": "Basic design tools (MS Paint, manual sketches)",
+              "score": 2
+            },
+            {
+              "text": "CAD software for design (e.g., Nedgraphics, ScotWeave)",
+              "score": 3
+            },
+            {
+              "text": "Digital design library with version control and client sharing",
+              "score": 4
+            },
+            {
+              "text": "AI-assisted design tools with trend analysis and 3D simulation",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST05",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Compliance",
+          "text": "How are compliance certifications (OEKO-TEX, GOTS, BIS) managed?",
+          "options": [
+            {
+              "text": "No certifications; not aware of requirements",
+              "score": 1
+            },
+            {
+              "text": "Aware of certifications but not pursuing",
+              "score": 2
+            },
+            {
+              "text": "Manual documentation for certification compliance",
+              "score": 3
+            },
+            {
+              "text": "Digital document management for audit readiness",
+              "score": 4
+            },
+            {
+              "text": "Automated compliance tracking integrated with production data",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST06",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Logistics",
+          "text": "How are dyeing/finishing job works and subcontractor processes tracked?",
+          "options": [
+            {
+              "text": "No tracking; dependent on verbal confirmation",
+              "score": 1
+            },
+            {
+              "text": "Paper-based job card system",
+              "score": 2
+            },
+            {
+              "text": "Excel tracker for job works sent/received",
+              "score": 3
+            },
+            {
+              "text": "Software-based job work management with status tracking",
+              "score": 4
+            },
+            {
+              "text": "Real-time visibility with digital twin of the job work process",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST07",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Sales",
+          "text": "How do you manage seasonal demand fluctuations and buyer forecasts?",
+          "options": [
+            {
+              "text": "No planning; produce based on current orders only",
+              "score": 1
+            },
+            {
+              "text": "Experience-based seasonal estimation",
+              "score": 2
+            },
+            {
+              "text": "Excel-based demand tracker with buyer communication",
+              "score": 3
+            },
+            {
+              "text": "Demand planning module linked to buyer orders",
+              "score": 4
+            },
+            {
+              "text": "AI-driven demand forecasting with real-time buyer data integration",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "ST08",
+          "type": "sector",
+          "sector": "textile",
+          "category": "Sustainability",
+          "text": "How is energy and water consumption tracked in your textile operations?",
+          "options": [
+            {
+              "text": "Not tracked at all",
+              "score": 1
+            },
+            {
+              "text": "Utility bills reviewed monthly but not benchmarked",
+              "score": 2
+            },
+            {
+              "text": "Manual logs for energy/water usage per shift",
+              "score": 3
+            },
+            {
+              "text": "Digital energy monitoring system with consumption reports",
+              "score": 4
+            },
+            {
+              "text": "Automated IoT-based energy & water management with sustainability dashboard",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ],
+      "pharmaceutical": [
+        {
+          "id": "SP01",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Quality & Compliance",
+          "text": "How is batch manufacturing record (BMR) and batch packaging record (BPR) managed?",
+          "options": [
+            {
+              "text": "Fully paper-based BMR/BPR with no digital copies",
+              "score": 1
+            },
+            {
+              "text": "Paper records with scanned copies stored on computer",
+              "score": 2
+            },
+            {
+              "text": "Semi-electronic with some data in spreadsheets",
+              "score": 3
+            },
+            {
+              "text": "Electronic Batch Record (EBR) system in use",
+              "score": 4
+            },
+            {
+              "text": "Fully validated EBR integrated with LIMS and ERP",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP02",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Quality & Compliance",
+          "text": "How is regulatory compliance (Schedule M, GMP, FDA) documentation managed?",
+          "options": [
+            {
+              "text": "No structured compliance system",
+              "score": 1
+            },
+            {
+              "text": "Physical files maintained department-wise",
+              "score": 2
+            },
+            {
+              "text": "Digital document management with version control",
+              "score": 3
+            },
+            {
+              "text": "eQMS (Electronic Quality Management System) in use",
+              "score": 4
+            },
+            {
+              "text": "Automated compliance tracking with 21 CFR Part 11 / ALCOA principles",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP03",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Laboratory",
+          "text": "What level of digitization exists in your Quality Control (QC) laboratory?",
+          "options": [
+            {
+              "text": "All lab data on paper; no instruments are connected",
+              "score": 1
+            },
+            {
+              "text": "Instruments with print-outs; data manually transcribed",
+              "score": 2
+            },
+            {
+              "text": "LIMS (Lab Information Management System) used partially",
+              "score": 3
+            },
+            {
+              "text": "Fully deployed LIMS integrated with lab instruments",
+              "score": 4
+            },
+            {
+              "text": "LIMS integrated with ERP, real-time OOS alerts, and predictive analytics",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP04",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Serialization & Traceability",
+          "text": "How is drug traceability and serialization managed for regulatory compliance?",
+          "options": [
+            {
+              "text": "No serialization system in place",
+              "score": 1
+            },
+            {
+              "text": "Batch number tracking manually on paper",
+              "score": 2
+            },
+            {
+              "text": "Barcode-based tracking without systemic integration",
+              "score": 3
+            },
+            {
+              "text": "Digital serialization system meeting DSCSA/Indian track & trace norms",
+              "score": 4
+            },
+            {
+              "text": "End-to-end serialization integrated with supply chain and government portals",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP05",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Cold Chain & Storage",
+          "text": "How are temperature-sensitive storage conditions monitored?",
+          "options": [
+            {
+              "text": "No temperature monitoring; rely on visual checks",
+              "score": 1
+            },
+            {
+              "text": "Manual temperature logs maintained 2–3 times daily",
+              "score": 2
+            },
+            {
+              "text": "Digital thermometers with manual recording",
+              "score": 3
+            },
+            {
+              "text": "Automated temperature monitoring with SMS/email alerts",
+              "score": 4
+            },
+            {
+              "text": "IoT-based real-time cold chain monitoring with audit trail",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP06",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Production",
+          "text": "How is equipment qualification and calibration managed?",
+          "options": [
+            {
+              "text": "No formal calibration schedule",
+              "score": 1
+            },
+            {
+              "text": "Manual calibration log with physical tags",
+              "score": 2
+            },
+            {
+              "text": "Excel-based calibration tracker with reminders",
+              "score": 3
+            },
+            {
+              "text": "Digital calibration management system with due-date alerts",
+              "score": 4
+            },
+            {
+              "text": "Automated calibration tracking integrated with ERP and QMS",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP07",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "R&D",
+          "text": "How is product formulation data and R&D documentation managed?",
+          "options": [
+            {
+              "text": "Handwritten notebooks only",
+              "score": 1
+            },
+            {
+              "text": "Scanned documents stored in folders",
+              "score": 2
+            },
+            {
+              "text": "ELN (Electronic Lab Notebook) or Excel for formulation data",
+              "score": 3
+            },
+            {
+              "text": "Structured R&D database with version control",
+              "score": 4
+            },
+            {
+              "text": "AI-assisted formulation platform with predictive modelling",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SP08",
+          "type": "sector",
+          "sector": "pharmaceutical",
+          "category": "Market Access",
+          "text": "How are sales orders, pharmacovigilance feedback, and recalls managed?",
+          "options": [
+            {
+              "text": "Manual phone/email based; no database",
+              "score": 1
+            },
+            {
+              "text": "Excel register for adverse events and complaints",
+              "score": 2
+            },
+            {
+              "text": "Digital complaint management module",
+              "score": 3
+            },
+            {
+              "text": "Integrated complaint, recall, and pharmacovigilance system",
+              "score": 4
+            },
+            {
+              "text": "Automated reporting to CDSCO/FDA with real-time recall management",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ],
+      "chemicals": [
+        {
+          "id": "SC01",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Safety & Compliance",
+          "text": "How is hazardous chemical handling, SDS (Safety Data Sheet), and HSE compliance managed?",
+          "options": [
+            {
+              "text": "No formal HSE system; verbal instructions only",
+              "score": 1
+            },
+            {
+              "text": "Physical SDS files available but not regularly updated",
+              "score": 2
+            },
+            {
+              "text": "Digital SDS library accessible to workers",
+              "score": 3
+            },
+            {
+              "text": "EHS (Environmental Health & Safety) software used for compliance tracking",
+              "score": 4
+            },
+            {
+              "text": "Automated HSE compliance with IoT sensors for gas leaks, spill detection",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC02",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Process Control",
+          "text": "How are critical process parameters (temperature, pressure, pH, flow rate) monitored?",
+          "options": [
+            {
+              "text": "Visual observation by operators; no sensors",
+              "score": 1
+            },
+            {
+              "text": "Analog gauges with manual logging",
+              "score": 2
+            },
+            {
+              "text": "Digital sensors with manual data entry into a logbook",
+              "score": 3
+            },
+            {
+              "text": "SCADA/DCS system with digital process monitoring",
+              "score": 4
+            },
+            {
+              "text": "AI-based process optimization with real-time closed-loop control",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC03",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Quality",
+          "text": "How is chemical product quality testing and Certificate of Analysis (CoA) issued?",
+          "options": [
+            {
+              "text": "No formal CoA; quality communicated verbally",
+              "score": 1
+            },
+            {
+              "text": "Manual paper CoA generated per batch",
+              "score": 2
+            },
+            {
+              "text": "Excel/Word templates for CoA generation",
+              "score": 3
+            },
+            {
+              "text": "LIMS/QMS generates CoA automatically from lab results",
+              "score": 4
+            },
+            {
+              "text": "Digital CoA integrated with ERP, shared electronically with customers",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC04",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Waste & Environment",
+          "text": "How is effluent treatment, waste disposal, and environmental monitoring tracked?",
+          "options": [
+            {
+              "text": "No tracking; compliance done only during inspections",
+              "score": 1
+            },
+            {
+              "text": "Manual logbooks for effluent parameters",
+              "score": 2
+            },
+            {
+              "text": "Spreadsheet-based environmental data tracking",
+              "score": 3
+            },
+            {
+              "text": "Digital ETP monitoring system with compliance reports",
+              "score": 4
+            },
+            {
+              "text": "Real-time online monitoring system connected to CPCB/SPCB portals",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC05",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Inventory",
+          "text": "How is chemical raw material storage, compatibility, and expiry tracked?",
+          "options": [
+            {
+              "text": "No systematic tracking; stored ad hoc",
+              "score": 1
+            },
+            {
+              "text": "Physical labels and manual store records",
+              "score": 2
+            },
+            {
+              "text": "Excel-based FIFO/FEFO inventory with expiry dates",
+              "score": 3
+            },
+            {
+              "text": "Software-based inventory with chemical compatibility alerts",
+              "score": 4
+            },
+            {
+              "text": "IoT-based warehouse management with real-time chemical inventory visibility",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC06",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "R&D",
+          "text": "How is new product development and formulation R&D documented?",
+          "options": [
+            {
+              "text": "Scientist notebooks only; no digital records",
+              "score": 1
+            },
+            {
+              "text": "Word/Excel documents stored in shared folders",
+              "score": 2
+            },
+            {
+              "text": "Structured digital R&D database with revision history",
+              "score": 3
+            },
+            {
+              "text": "Integrated R&D management system with IP and patent tracking",
+              "score": 4
+            },
+            {
+              "text": "AI-assisted compound discovery platform with digital lab twin",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC07",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Logistics",
+          "text": "How are hazardous goods transport documentation and logistics managed?",
+          "options": [
+            {
+              "text": "Verbal coordination; no system documentation",
+              "score": 1
+            },
+            {
+              "text": "Paper-based challans and delivery receipts",
+              "score": 2
+            },
+            {
+              "text": "Digital delivery tracking via transporter WhatsApp/SMS",
+              "score": 3
+            },
+            {
+              "text": "TMS (Transport Management System) with POD and hazmat compliance",
+              "score": 4
+            },
+            {
+              "text": "Fully digital logistics with GPS tracking, e-waybill integration, and MSDS delivery",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SC08",
+          "type": "sector",
+          "sector": "chemicals",
+          "category": "Energy",
+          "text": "How is energy consumption monitored and optimized in your chemical plant?",
+          "options": [
+            {
+              "text": "Not monitored; only utility bills reviewed",
+              "score": 1
+            },
+            {
+              "text": "Manual meter reading per shift",
+              "score": 2
+            },
+            {
+              "text": "Digital energy meters with periodic Excel reporting",
+              "score": 3
+            },
+            {
+              "text": "Energy management software with benchmarking and alerts",
+              "score": 4
+            },
+            {
+              "text": "AI-driven energy optimization with sub-metering and demand response",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ],
+      "wire_cable": [
+        {
+          "id": "SWC01",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Production",
+          "text": "How are drawing, stranding, and extrusion machine parameters monitored?",
+          "options": [
+            {
+              "text": "Operator visual monitoring only; no digital readouts",
+              "score": 1
+            },
+            {
+              "text": "Analog gauges; parameters noted in shift logs",
+              "score": 2
+            },
+            {
+              "text": "Digital displays on machines; manual entry in reports",
+              "score": 3
+            },
+            {
+              "text": "Machine data collected centrally via SCADA/PLC",
+              "score": 4
+            },
+            {
+              "text": "Real-time IoT monitoring with automated alerts and SPC integration",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC02",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Quality",
+          "text": "How is electrical testing (resistance, insulation, voltage) data managed?",
+          "options": [
+            {
+              "text": "Test results hand-noted on paper only",
+              "score": 1
+            },
+            {
+              "text": "Paper test certificates; no digital storage",
+              "score": 2
+            },
+            {
+              "text": "Test results entered in Excel; CoT issued manually",
+              "score": 3
+            },
+            {
+              "text": "Digital test management system auto-generating test certificates",
+              "score": 4
+            },
+            {
+              "text": "Automated test equipment linked to QMS with real-time pass/fail decisions",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC03",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Material",
+          "text": "How is copper/aluminium conductor material consumption and yield tracked?",
+          "options": [
+            {
+              "text": "Not tracked; estimated from production output",
+              "score": 1
+            },
+            {
+              "text": "Manual weight-based recording at start/end of shift",
+              "score": 2
+            },
+            {
+              "text": "Excel-based consumption and yield analysis",
+              "score": 3
+            },
+            {
+              "text": "Digital material management with per-batch yield reports",
+              "score": 4
+            },
+            {
+              "text": "IoT-based real-time yield tracking with automatic wastage alerts",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC04",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Compliance",
+          "text": "How are BIS certification and IS standard compliance documents managed?",
+          "options": [
+            {
+              "text": "Compliance done manually; certificates in physical files",
+              "score": 1
+            },
+            {
+              "text": "Scanned copies stored in folders",
+              "score": 2
+            },
+            {
+              "text": "Digital document library with expiry tracking",
+              "score": 3
+            },
+            {
+              "text": "Compliance management software with renewal reminders",
+              "score": 4
+            },
+            {
+              "text": "Automated compliance tracking integrated with production and audit trail",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC05",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Maintenance",
+          "text": "How is maintenance of drawing dies, extrusion dies, and machines managed?",
+          "options": [
+            {
+              "text": "Reactive maintenance only; no schedule",
+              "score": 1
+            },
+            {
+              "text": "Manual maintenance log maintained by technician",
+              "score": 2
+            },
+            {
+              "text": "Excel-based preventive maintenance schedule",
+              "score": 3
+            },
+            {
+              "text": "CMMS (Computerized Maintenance Management System) in use",
+              "score": 4
+            },
+            {
+              "text": "Predictive maintenance using machine vibration/temperature sensors",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC06",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Energy",
+          "text": "How is power factor, energy consumption per kg of output tracked?",
+          "options": [
+            {
+              "text": "Not tracked at all",
+              "score": 1
+            },
+            {
+              "text": "Monthly bill reviewed; no production correlation",
+              "score": 2
+            },
+            {
+              "text": "Manual energy-per-unit recording per shift",
+              "score": 3
+            },
+            {
+              "text": "Digital energy monitoring with production-linked dashboards",
+              "score": 4
+            },
+            {
+              "text": "AI-based energy management with dynamic load balancing",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC07",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Traceability",
+          "text": "How is product traceability (drum-to-customer) ensured?",
+          "options": [
+            {
+              "text": "No traceability system in place",
+              "score": 1
+            },
+            {
+              "text": "Drum numbers noted on paper dispatch records",
+              "score": 2
+            },
+            {
+              "text": "Barcode/QR on drums with Excel traceability",
+              "score": 3
+            },
+            {
+              "text": "Digital traceability system from production to dispatch",
+              "score": 4
+            },
+            {
+              "text": "End-to-end serialized traceability integrated with customer portal",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SWC08",
+          "type": "sector",
+          "sector": "wire_cable",
+          "category": "Sales & Customer",
+          "text": "How do you manage project-specific cable schedules and customer specifications?",
+          "options": [
+            {
+              "text": "Verbal communication with customers; no documentation",
+              "score": 1
+            },
+            {
+              "text": "Email/WhatsApp for specs; manual conversion to work order",
+              "score": 2
+            },
+            {
+              "text": "Structured spec sheet in Excel linked to production",
+              "score": 3
+            },
+            {
+              "text": "Project management software handling customer specs and delivery schedules",
+              "score": 4
+            },
+            {
+              "text": "Digital customer portal with auto-generation of production orders from specs",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ],
+      "engineering_goods": [
+        {
+          "id": "SEG01",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Design & Engineering",
+          "text": "How are engineering drawings and product designs created and managed?",
+          "options": [
+            {
+              "text": "Hand-drawn sketches only",
+              "score": 1
+            },
+            {
+              "text": "2D CAD (AutoCAD) used; files stored on local computers",
+              "score": 2
+            },
+            {
+              "text": "3D CAD (SolidWorks, CATIA) with structured file management",
+              "score": 3
+            },
+            {
+              "text": "PDM/PLM system managing design versions, BOMs, and approvals",
+              "score": 4
+            },
+            {
+              "text": "Fully integrated PLM with simulation, digital twin, and customer collaboration",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG02",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Production",
+          "text": "How is job shop / machining work order and routing managed?",
+          "options": [
+            {
+              "text": "Verbal work allocation by supervisor",
+              "score": 1
+            },
+            {
+              "text": "Paper job cards given to each machine operator",
+              "score": 2
+            },
+            {
+              "text": "Excel-based job tracking with status updates",
+              "score": 3
+            },
+            {
+              "text": "Digital shop floor control system with work order routing",
+              "score": 4
+            },
+            {
+              "text": "Fully automated WO management with machine-level progress tracking",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG03",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Quality",
+          "text": "How are dimensional inspection and measurement data managed?",
+          "options": [
+            {
+              "text": "Manual measurement; no records maintained",
+              "score": 1
+            },
+            {
+              "text": "Paper inspection records with manual sign-off",
+              "score": 2
+            },
+            {
+              "text": "Excel-based inspection data with SPC charts",
+              "score": 3
+            },
+            {
+              "text": "Digital CMM (Coordinate Measuring Machine) data linked to QMS",
+              "score": 4
+            },
+            {
+              "text": "Automated in-line measurement with real-time SPC and corrective action workflow",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG04",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Tool & Die",
+          "text": "How are cutting tools, jigs, and fixtures tracked and managed?",
+          "options": [
+            {
+              "text": "No formal tool management; ad hoc tracking",
+              "score": 1
+            },
+            {
+              "text": "Physical register for tool issue and return",
+              "score": 2
+            },
+            {
+              "text": "Excel-based tool inventory with life tracking",
+              "score": 3
+            },
+            {
+              "text": "Digital tool management system with cost/life analytics",
+              "score": 4
+            },
+            {
+              "text": "IoT-based tool tracking with predictive replacement alerts",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG05",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Subcontracting",
+          "text": "How is subcontracting / job work coordination managed?",
+          "options": [
+            {
+              "text": "Verbal coordination; no documentation",
+              "score": 1
+            },
+            {
+              "text": "Paper gate pass and challan system",
+              "score": 2
+            },
+            {
+              "text": "Excel tracker for outward/inward job work",
+              "score": 3
+            },
+            {
+              "text": "Digital job work management with status, quality, and cost tracking",
+              "score": 4
+            },
+            {
+              "text": "Integrated subcontractor portal with real-time visibility",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG06",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Customer Service",
+          "text": "How are customer complaints, warranty claims, and after-sales service managed?",
+          "options": [
+            {
+              "text": "Handled informally; no tracking",
+              "score": 1
+            },
+            {
+              "text": "Manual register for complaints",
+              "score": 2
+            },
+            {
+              "text": "Excel-based complaint log with resolution tracking",
+              "score": 3
+            },
+            {
+              "text": "Digital service management system with SLA tracking",
+              "score": 4
+            },
+            {
+              "text": "Integrated CRM/service platform with customer portal and predictive service",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG07",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Costing",
+          "text": "How is job/project-level cost analysis and profitability tracked?",
+          "options": [
+            {
+              "text": "No cost analysis; pricing based on market rate",
+              "score": 1
+            },
+            {
+              "text": "Basic cost sheet prepared manually per job",
+              "score": 2
+            },
+            {
+              "text": "Excel-based job costing with material and labour",
+              "score": 3
+            },
+            {
+              "text": "ERP-based job costing with variance analysis",
+              "score": 4
+            },
+            {
+              "text": "Real-time job profitability dashboard with AI-based pricing insights",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SEG08",
+          "type": "sector",
+          "sector": "engineering_goods",
+          "category": "Automation",
+          "text": "What is the level of automation in your machining/fabrication processes?",
+          "options": [
+            {
+              "text": "Fully manual operations",
+              "score": 1
+            },
+            {
+              "text": "Semi-automatic conventional machines",
+              "score": 2
+            },
+            {
+              "text": "CNC machines with manual programming",
+              "score": 3
+            },
+            {
+              "text": "CNC with DNC (Direct Numerical Control) linked to CAD/CAM",
+              "score": 4
+            },
+            {
+              "text": "Flexible Manufacturing System (FMS) / Robotics with Industry 4.0 integration",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ],
+      "plastic_packaging": [
+        {
+          "id": "SPP01",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Production",
+          "text": "How are injection moulding / blow moulding / extrusion machine parameters monitored?",
+          "options": [
+            {
+              "text": "Operator memory and experience; no digital capture",
+              "score": 1
+            },
+            {
+              "text": "Analog dials; parameters noted in shift log",
+              "score": 2
+            },
+            {
+              "text": "Digital HMI with parameters displayed; manual recording",
+              "score": 3
+            },
+            {
+              "text": "Machine parameters logged digitally via PLC/SCADA",
+              "score": 4
+            },
+            {
+              "text": "IoT-based real-time monitoring with SPC alerts and remote access",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP02",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Quality",
+          "text": "How is incoming raw material (resin, masterbatch) quality tested and approved?",
+          "options": [
+            {
+              "text": "No incoming QC; used as received",
+              "score": 1
+            },
+            {
+              "text": "Visual inspection only",
+              "score": 2
+            },
+            {
+              "text": "Basic MFI/weight tests with manual records",
+              "score": 3
+            },
+            {
+              "text": "QMS-based incoming inspection with CoA verification",
+              "score": 4
+            },
+            {
+              "text": "Automated incoming inspection with supplier scorecard and CoA validation",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP03",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Mould Management",
+          "text": "How is mould maintenance, shot count, and lifecycle management tracked?",
+          "options": [
+            {
+              "text": "No tracking; moulds repaired when damaged",
+              "score": 1
+            },
+            {
+              "text": "Manual record of mould usage/repair",
+              "score": 2
+            },
+            {
+              "text": "Excel-based mould shot count and maintenance schedule",
+              "score": 3
+            },
+            {
+              "text": "Digital mould management system with life cycle alerts",
+              "score": 4
+            },
+            {
+              "text": "IoT-based mould monitoring with predictive maintenance triggers",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP04",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Design",
+          "text": "How are new packaging designs and client artwork managed?",
+          "options": [
+            {
+              "text": "Designs done externally; no internal system",
+              "score": 1
+            },
+            {
+              "text": "Design files stored in local folders without version control",
+              "score": 2
+            },
+            {
+              "text": "Structured design library with naming convention",
+              "score": 3
+            },
+            {
+              "text": "DAM (Digital Asset Management) system for artwork",
+              "score": 4
+            },
+            {
+              "text": "Integrated artwork management with customer approval workflow and versioning",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP05",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Compliance",
+          "text": "How is compliance with food-grade, EPR (Extended Producer Responsibility) and BIS standards managed?",
+          "options": [
+            {
+              "text": "Not aware of applicable regulations",
+              "score": 1
+            },
+            {
+              "text": "Basic awareness; compliance done when audited",
+              "score": 2
+            },
+            {
+              "text": "Manual documentation for compliance certificates",
+              "score": 3
+            },
+            {
+              "text": "Digital compliance calendar and document management",
+              "score": 4
+            },
+            {
+              "text": "Automated EPR reporting and digital compliance dashboard",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP06",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Waste & Regrind",
+          "text": "How is plastic scrap, regrind usage, and wastage tracked?",
+          "options": [
+            {
+              "text": "Not tracked; mixed with production casually",
+              "score": 1
+            },
+            {
+              "text": "Manual weight recording of scrap",
+              "score": 2
+            },
+            {
+              "text": "Excel tracker for regrind generation and usage",
+              "score": 3
+            },
+            {
+              "text": "Digital waste management module linked to production",
+              "score": 4
+            },
+            {
+              "text": "Real-time IoT-based material balance with zero-waste dashboards",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP07",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Customer",
+          "text": "How are custom orders, printing specifications, and delivery schedules managed for packaging clients?",
+          "options": [
+            {
+              "text": "Phone/WhatsApp orders with no formal tracking",
+              "score": 1
+            },
+            {
+              "text": "Manual order register with customer specs on paper",
+              "score": 2
+            },
+            {
+              "text": "Excel-based order management with delivery schedule",
+              "score": 3
+            },
+            {
+              "text": "ERP/OMS with order-to-dispatch tracking",
+              "score": 4
+            },
+            {
+              "text": "Customer portal with real-time order status, proofing, and delivery tracking",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        },
+        {
+          "id": "SPP08",
+          "type": "sector",
+          "sector": "plastic_packaging",
+          "category": "Energy",
+          "text": "How is energy consumption per machine or product monitored?",
+          "options": [
+            {
+              "text": "Not monitored; only monthly bill reviewed",
+              "score": 1
+            },
+            {
+              "text": "Manual meter reading with shift logs",
+              "score": 2
+            },
+            {
+              "text": "Machine-level energy sub-metering with Excel reporting",
+              "score": 3
+            },
+            {
+              "text": "Energy management system with OEE and energy benchmarks",
+              "score": 4
+            },
+            {
+              "text": "AI-driven energy optimization with real-time OEE and carbon footprint tracking",
+              "score": 5
+            },
+            {
+              "text": "N/A",
+              "isNA": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
