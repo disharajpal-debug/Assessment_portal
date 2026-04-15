@@ -18,10 +18,10 @@ RUN apt-get update && \
 RUN pip install --upgrade pip
 
 # Copy requirements first (better layer caching)
-COPY requirement.txt /app/requirement.txt
+COPY requirements.txt /app/assessment/requirements.txt
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r /app/requirement.txt
+RUN pip install --no-cache-dir -r /app/assessment/requirements.txt
 
 # Copy the project files into the container
 COPY . /app/
