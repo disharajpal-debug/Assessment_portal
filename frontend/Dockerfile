@@ -6,10 +6,10 @@ WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
-COPY yarn.lock ./
+COPY package-lock.json ./
 
 # Install dependencies
-RUN yarn install --frozen-lockfile
+RUN npm ci
 
 # Copy source code
 COPY . .
@@ -19,7 +19,7 @@ ARG VITE_APP_BASE_URL
 ENV VITE_APP_BASE_URL=$VITE_APP_BASE_URL
 
 # Build the application
-RUN yarn build
+RUN npm run build
 
 # Production stage
 FROM nginx:alpine
