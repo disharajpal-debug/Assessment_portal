@@ -1,25 +1,33 @@
-# Use official Python image
+# Use the base Python image
 FROM python:3.11-slim
 
 # Set environment variables
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
-# Set work directory inside container
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copy requirements first for caching
-COPY requirements.txt /app/
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends gcc postgresql-client libpq-dev libc6-dev && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
-# Install dependencies
+# Upgrade pip
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
 
-# Copy project files
+# Copy requirements first (better layer caching)
+COPY requirement.txt /app/requirement.txt
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r /app/requirement.txt
+
+# Copy the project files into the container
 COPY . /app/
 
-# Expose port 8000 (Django default)
+# Expose port
 EXPOSE 8000
 
-# Run Django development server
+# Run development server
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
